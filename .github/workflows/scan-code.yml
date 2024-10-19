@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: install bearer for code scaning
       run: |
@@ -17,4 +17,4 @@ jobs:
         sudo apt-get install bearer
     - name: Run tests
       run: |
-        bearer scan .
+        bearer scan . --output /code-scan-results/result.json
