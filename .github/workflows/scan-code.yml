@@ -35,4 +35,4 @@ jobs:
 
     - name: Run tests
       run: |
-        bearer scan Damn-Vulnerable-Bank --output code-scan-results/result.json
+        bearer scan DamnVulnerableBank --output code-scan-results/result.json
