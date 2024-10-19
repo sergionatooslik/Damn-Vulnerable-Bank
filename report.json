@@ -1,0 +1,1521 @@
+{
+ "vulnerabilities": [
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 24,
+   "class": "google-services.json (24:27)",
+   "vul_id": "7a07312a70ddcd0cf4696267ca82e884",
+   "method": "\"current_key\": \"AIzaSyBbOHG6DDa6DOcRGEg57mw9nXYXcw6la3c\"",
+   "column": 27,
+   "description": "Google API key. File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/google-services.json (24:27)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 42,
+   "class": "ApproveBeneficiary.java (42:72)",
+   "vul_id": "33d097446c0b840c8b83bf536ea36c08",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 72,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ApproveBeneficiary.java (42:72)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 61,
+   "class": "ApproveBeneficiary.java (61:57)",
+   "vul_id": "fbd465a3ab5ab987e1ee85affe17ef62",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 57,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ApproveBeneficiary.java (61:57)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 42,
+   "class": "ApproveBeneficiary.java (42:72)",
+   "vul_id": "33d097446c0b840c8b83bf536ea36c08",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 72,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ApproveBeneficiary.java (42:72)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 61,
+   "class": "ApproveBeneficiary.java (61:57)",
+   "vul_id": "fbd465a3ab5ab987e1ee85affe17ef62",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 57,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ApproveBeneficiary.java (61:57)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 38,
+   "class": "AddBeneficiary.java (38:75)",
+   "vul_id": "38f8999569b4147f93c492e7756d39e3",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/AddBeneficiary.java (38:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 42,
+   "class": "AddBeneficiary.java (42:60)",
+   "vul_id": "ed6e51a5d394900b2e8b72f761db5331",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/AddBeneficiary.java (42:60)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 38,
+   "class": "AddBeneficiary.java (38:75)",
+   "vul_id": "38f8999569b4147f93c492e7756d39e3",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/AddBeneficiary.java (38:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 42,
+   "class": "AddBeneficiary.java (42:60)",
+   "vul_id": "ed6e51a5d394900b2e8b72f761db5331",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/AddBeneficiary.java (42:60)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 50,
+   "class": "BankLogin.java (50:78)",
+   "vul_id": "7f59e279333cf4437567f53f0290f7c8",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (50:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "BankLogin.java (87:95)",
+   "vul_id": "9532ab134e99b13246ed2f17b2f12149",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 95,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (87:95)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 88,
+   "class": "BankLogin.java (88:29)",
+   "vul_id": "88dfccf5f39034b460b631637de009e3",
+   "method": "Log.d(\"accesstoken\",accessToken);",
+   "column": 29,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (88:29)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 50,
+   "class": "BankLogin.java (50:78)",
+   "vul_id": "7f59e279333cf4437567f53f0290f7c8",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (50:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "BankLogin.java (87:95)",
+   "vul_id": "9532ab134e99b13246ed2f17b2f12149",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 95,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (87:95)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 88,
+   "class": "BankLogin.java (88:29)",
+   "vul_id": "88dfccf5f39034b460b631637de009e3",
+   "method": "Log.d(\"accesstoken\",accessToken);",
+   "column": 29,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/BankLogin.java (88:29)"
+  },
+  {
+   "cvss": 8.8,
+   "cwe": "CWE-749",
+   "line": 24,
+   "class": "CurrencyRates.java (24:25)",
+   "vul_id": "c5c0410e5bbe6fbbfa7ee3aa8e948717",
+   "method": "webSettings.setJavaScriptEnabled(true);",
+   "column": 25,
+   "description": "Insecure WebView implementation. User-controlled code execution is a security hole.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (24:25)"
+  },
+  {
+   "cvss": 8.8,
+   "cwe": "CWE-749",
+   "line": 34,
+   "class": "CurrencyRates.java (34:25)",
+   "vul_id": "5c188846e8b1fbc429738bcd3dc9c3ba",
+   "method": "webSettings.setJavaScriptEnabled(true);",
+   "column": 25,
+   "description": "Insecure WebView implementation. User-controlled code execution is a security hole.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (34:25)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 28,
+   "class": "CurrencyRates.java (28:23)",
+   "vul_id": "ecc3ae14f4e4d79529c2854a05255b7e",
+   "method": "vulnerable.loadUrl(\"https://www.xe.com/\"); }",
+   "column": 23,
+   "description": "The WebView loads files from external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (28:23)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 38,
+   "class": "CurrencyRates.java (38:23)",
+   "vul_id": "85479bd01083b1fc7a7e13723576691a",
+   "method": "vulnerable.loadUrl(getToken);}",
+   "column": 23,
+   "description": "The WebView loads files from external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (38:23)"
+  },
+  {
+   "cvss": 8.8,
+   "cwe": "CWE-749",
+   "line": 24,
+   "class": "CurrencyRates.java (24:25)",
+   "vul_id": "c5c0410e5bbe6fbbfa7ee3aa8e948717",
+   "method": "webSettings.setJavaScriptEnabled(true);",
+   "column": 25,
+   "description": "Insecure WebView implementation. User-controlled code execution is a security hole.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (24:25)"
+  },
+  {
+   "cvss": 8.8,
+   "cwe": "CWE-749",
+   "line": 34,
+   "class": "CurrencyRates.java (34:25)",
+   "vul_id": "5c188846e8b1fbc429738bcd3dc9c3ba",
+   "method": "webSettings.setJavaScriptEnabled(true);",
+   "column": 25,
+   "description": "Insecure WebView implementation. User-controlled code execution is a security hole.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (34:25)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 28,
+   "class": "CurrencyRates.java (28:23)",
+   "vul_id": "ecc3ae14f4e4d79529c2854a05255b7e",
+   "method": "vulnerable.loadUrl(\"https://www.xe.com/\"); }",
+   "column": 23,
+   "description": "The WebView loads files from external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (28:23)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 38,
+   "class": "CurrencyRates.java (38:23)",
+   "vul_id": "85479bd01083b1fc7a7e13723576691a",
+   "method": "vulnerable.loadUrl(getToken);}",
+   "column": 23,
+   "description": "The WebView loads files from external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/CurrencyRates.java (38:23)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 33,
+   "class": "Dashboard.java (33:86)",
+   "vul_id": "fd04b13963c7328afd7b206d92c5bfde",
+   "method": "SharedPreferences pref = getApplicationContext().getSharedPreferences(\"jwt\", MODE_PRIVATE);",
+   "column": 86,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Dashboard.java (33:86)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 33,
+   "class": "Dashboard.java (33:86)",
+   "vul_id": "fd04b13963c7328afd7b206d92c5bfde",
+   "method": "SharedPreferences pref = getApplicationContext().getSharedPreferences(\"jwt\", MODE_PRIVATE);",
+   "column": 86,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Dashboard.java (33:86)"
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 6,
+   "class": "EncryptDecrypt.java (6:26)",
+   "vul_id": "5e066bdd3a20792a094d2eeb81ffc5ff",
+   "method": "static public String secret = \"amazing\";",
+   "column": 26,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/EncryptDecrypt.java (6:26)",
+   "recomendation": "Credentials must not be stored in the Git code or repository. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 5.5,
+   "cwe": "CWE-276",
+   "line": 102,
+   "class": "EmulatorDetectortest.java (102:25)",
+   "vul_id": "a5b28335c46c6a371c7d654e5549b58e",
+   "method": ".getExternalStorageDirectory().toString()",
+   "column": 25,
+   "description": "The application can read / write to external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/EmulatorDetectortest.java (102:25)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 142,
+   "class": "EmulatorDetectortest.java (142:9)",
+   "vul_id": "a79e70fb842b10a6469fa64d17d944ef",
+   "method": "Log.d(TAG, getDeviceListing());",
+   "column": 9,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/EmulatorDetectortest.java (142:9)"
+  },
+  {
+   "cvss": 5.5,
+   "cwe": "CWE-276",
+   "line": 102,
+   "class": "EmulatorDetectortest.java (102:25)",
+   "vul_id": "a5b28335c46c6a371c7d654e5549b58e",
+   "method": ".getExternalStorageDirectory().toString()",
+   "column": 25,
+   "description": "The application can read / write to external storage. External storage files can be modified by any application.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/EmulatorDetectortest.java (102:25)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 142,
+   "class": "EmulatorDetectortest.java (142:9)",
+   "vul_id": "a79e70fb842b10a6469fa64d17d944ef",
+   "method": "Log.d(TAG, getDeviceListing());",
+   "column": 9,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/EmulatorDetectortest.java (142:9)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 91,
+   "class": "MainActivity.java (91:75)",
+   "vul_id": "0c0f955a2dd2e03751ad6abbc601b9d6",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (91:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 114,
+   "class": "MainActivity.java (114:89)",
+   "vul_id": "1ea9bbedb769a1d4d2fcb15694549656",
+   "method": "SharedPreferences pref = getApplicationContext().getSharedPreferences(\"apiurl\", MODE_PRIVATE);",
+   "column": 89,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (114:89)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 123,
+   "class": "MainActivity.java (123:78)",
+   "vul_id": "59b303aaaa955529e28bb02ee2912e06",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (123:78)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 79,
+   "class": "MainActivity.java (79:13)",
+   "vul_id": "4e3f5cf2aa4d0f44b44bf7cbe559b5a2",
+   "method": "Log.d(\"FRIDA CHECK\", \"FRIDA Server DETECTED\");",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (79:13)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 83,
+   "class": "MainActivity.java (83:13)",
+   "vul_id": "84ede7e3ec26cb4299a4ab1174232468",
+   "method": "Log.d(\"FRIDA CHECK\", \"FRIDA Server NOT RUNNING\");",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (83:13)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 134,
+   "class": "MainActivity.java (134:15)",
+   "vul_id": "e669b7bc794b322571cdd98dbe102d5b",
+   "method": "//            Log.d(\"DECRYPTING: \", jsonObject);",
+   "column": 15,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (134:15)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 140,
+   "class": "MainActivity.java (140:13)",
+   "vul_id": "2dacd4cb4c556c289ff612062b440da9",
+   "method": "Log.d(\"DECRYPTING: \", decryptedResponse.toString());",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (140:13)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 91,
+   "class": "MainActivity.java (91:75)",
+   "vul_id": "0c0f955a2dd2e03751ad6abbc601b9d6",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (91:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 114,
+   "class": "MainActivity.java (114:89)",
+   "vul_id": "1ea9bbedb769a1d4d2fcb15694549656",
+   "method": "SharedPreferences pref = getApplicationContext().getSharedPreferences(\"apiurl\", MODE_PRIVATE);",
+   "column": 89,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (114:89)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 123,
+   "class": "MainActivity.java (123:78)",
+   "vul_id": "59b303aaaa955529e28bb02ee2912e06",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (123:78)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 79,
+   "class": "MainActivity.java (79:13)",
+   "vul_id": "4e3f5cf2aa4d0f44b44bf7cbe559b5a2",
+   "method": "Log.d(\"FRIDA CHECK\", \"FRIDA Server DETECTED\");",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (79:13)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 83,
+   "class": "MainActivity.java (83:13)",
+   "vul_id": "84ede7e3ec26cb4299a4ab1174232468",
+   "method": "Log.d(\"FRIDA CHECK\", \"FRIDA Server NOT RUNNING\");",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (83:13)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 134,
+   "class": "MainActivity.java (134:15)",
+   "vul_id": "e669b7bc794b322571cdd98dbe102d5b",
+   "method": "//            Log.d(\"DECRYPTING: \", jsonObject);",
+   "column": 15,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (134:15)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 140,
+   "class": "MainActivity.java (140:13)",
+   "vul_id": "2dacd4cb4c556c289ff612062b440da9",
+   "method": "Log.d(\"DECRYPTING: \", decryptedResponse.toString());",
+   "column": 13,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/MainActivity.java (140:13)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 96,
+   "class": "GetTransactions.java (96:34)",
+   "vul_id": "de462e4ddef44b92aa452d764aad4654",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 34,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (96:34)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 101,
+   "class": "GetTransactions.java (101:31)",
+   "vul_id": "52bfdd9c0ad81c22199b3477534fee72",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 31,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (101:31)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 54,
+   "class": "GetTransactions.java (54:78)",
+   "vul_id": "fbd80c1e585bb764144813ccbac0c69e",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (54:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 113,
+   "class": "GetTransactions.java (113:83)",
+   "vul_id": "b4acb3d2be88cab375551a16a50a45cf",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (113:83)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 96,
+   "class": "GetTransactions.java (96:34)",
+   "vul_id": "de462e4ddef44b92aa452d764aad4654",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 34,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (96:34)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 101,
+   "class": "GetTransactions.java (101:31)",
+   "vul_id": "52bfdd9c0ad81c22199b3477534fee72",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 31,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (101:31)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 54,
+   "class": "GetTransactions.java (54:78)",
+   "vul_id": "fbd80c1e585bb764144813ccbac0c69e",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (54:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 113,
+   "class": "GetTransactions.java (113:83)",
+   "vul_id": "b4acb3d2be88cab375551a16a50a45cf",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/GetTransactions.java (113:83)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 37,
+   "class": "Myprofile.java (37:75)",
+   "vul_id": "6e6535d2a0187f61e5a34869f7645442",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Myprofile.java (37:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 40,
+   "class": "Myprofile.java (40:60)",
+   "vul_id": "556f0baf4b0a413057b61355b3150c18",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Myprofile.java (40:60)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 37,
+   "class": "Myprofile.java (37:75)",
+   "vul_id": "6e6535d2a0187f61e5a34869f7645442",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Myprofile.java (37:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 40,
+   "class": "Myprofile.java (40:60)",
+   "vul_id": "556f0baf4b0a413057b61355b3150c18",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/Myprofile.java (40:60)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 39,
+   "class": "RegisterBank.java (39:78)",
+   "vul_id": "bbf2fdd02d7327127e828bd425508114",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/RegisterBank.java (39:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 39,
+   "class": "RegisterBank.java (39:78)",
+   "vul_id": "bbf2fdd02d7327127e828bd425508114",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/RegisterBank.java (39:78)"
+  },
+  {
+   "cvss": 9,
+   "cwe": "CWE-78",
+   "line": 44,
+   "class": "RootUtil.java (44:23)",
+   "vul_id": "fd2c3cfb4ed447b6e5d49cc06e43d7f3",
+   "method": "process = Runtime.getRuntime().exec(new String[] { \"/system/xbin/which\", \"su\" });",
+   "column": 23,
+   "description": "The application executes Commands directly on the Operating System. If using any user input, it must be sanitized to the maximum, cleaning any unnecessary characters. In general, it is recommended to never use calls to native commands, being recommended the JNI (Java Native Interface) for such low level operations.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/RootUtil.java (44:23)"
+  },
+  {
+   "cvss": 9,
+   "cwe": "CWE-78",
+   "line": 44,
+   "class": "RootUtil.java (44:23)",
+   "vul_id": "fd2c3cfb4ed447b6e5d49cc06e43d7f3",
+   "method": "process = Runtime.getRuntime().exec(new String[] { \"/system/xbin/which\", \"su\" });",
+   "column": 23,
+   "description": "The application executes Commands directly on the Operating System. If using any user input, it must be sanitized to the maximum, cleaning any unnecessary characters. In general, it is recommended to never use calls to native commands, being recommended the JNI (Java Native Interface) for such low level operations.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/RootUtil.java (44:23)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 48,
+   "class": "ResetPassword.java (48:78)",
+   "vul_id": "d86d4a2d47a7ccf067640662604888e2",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (48:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 73,
+   "class": "ResetPassword.java (73:91)",
+   "vul_id": "5fd4c1b68649ef8028b1794cbaaad2e0",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 91,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (73:91)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "ResetPassword.java (87:83)",
+   "vul_id": "6e72b9a3e20176629f2e8f580552b6be",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (87:83)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 48,
+   "class": "ResetPassword.java (48:78)",
+   "vul_id": "d86d4a2d47a7ccf067640662604888e2",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (48:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 73,
+   "class": "ResetPassword.java (73:91)",
+   "vul_id": "5fd4c1b68649ef8028b1794cbaaad2e0",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 91,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (73:91)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "ResetPassword.java (87:83)",
+   "vul_id": "6e72b9a3e20176629f2e8f580552b6be",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ResetPassword.java (87:83)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 97,
+   "class": "PendingBeneficiary.java (97:42)",
+   "vul_id": "45b771752ff3a18ab5fe6e95d698125a",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (97:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 102,
+   "class": "PendingBeneficiary.java (102:39)",
+   "vul_id": "7a78aa921176fafc789cbd9b538a2eb5",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (102:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 52,
+   "class": "PendingBeneficiary.java (52:78)",
+   "vul_id": "086cac44ad0c0046fcb5a6caeea7be2b",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (52:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 115,
+   "class": "PendingBeneficiary.java (115:83)",
+   "vul_id": "a121a97e557c4f29bba5ccdd3bf2db50",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (115:83)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 66,
+   "class": "PendingBeneficiary.java (66:29)",
+   "vul_id": "522cd90c6f10a9872d73836d38f0b4b2",
+   "method": "Log.d(\"Pending Beneficiary\", decryptedResponse.toString());",
+   "column": 29,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (66:29)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 67,
+   "class": "PendingBeneficiary.java (67:31)",
+   "vul_id": "5241413566656c6d077e8537c5fe8238",
+   "method": "//                            Log.d(\"Pending Beneficiary\", decryptedResponse.getJSONObject(\"status\").getInt(\"code\"));",
+   "column": 31,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (67:31)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 97,
+   "class": "PendingBeneficiary.java (97:42)",
+   "vul_id": "45b771752ff3a18ab5fe6e95d698125a",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (97:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 102,
+   "class": "PendingBeneficiary.java (102:39)",
+   "vul_id": "7a78aa921176fafc789cbd9b538a2eb5",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (102:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 52,
+   "class": "PendingBeneficiary.java (52:78)",
+   "vul_id": "086cac44ad0c0046fcb5a6caeea7be2b",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (52:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 115,
+   "class": "PendingBeneficiary.java (115:83)",
+   "vul_id": "a121a97e557c4f29bba5ccdd3bf2db50",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (115:83)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 66,
+   "class": "PendingBeneficiary.java (66:29)",
+   "vul_id": "522cd90c6f10a9872d73836d38f0b4b2",
+   "method": "Log.d(\"Pending Beneficiary\", decryptedResponse.toString());",
+   "column": 29,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (66:29)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 67,
+   "class": "PendingBeneficiary.java (67:31)",
+   "vul_id": "5241413566656c6d077e8537c5fe8238",
+   "method": "//                            Log.d(\"Pending Beneficiary\", decryptedResponse.getJSONObject(\"status\").getInt(\"code\"));",
+   "column": 31,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/PendingBeneficiary.java (67:31)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 32,
+   "class": "ViewBalance.java (32:75)",
+   "vul_id": "8de90b8f9e929aa068a1af60678bb1ca",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBalance.java (32:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 35,
+   "class": "ViewBalance.java (35:60)",
+   "vul_id": "0f9c74feda33c2528090b2894ab58829",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBalance.java (35:60)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 32,
+   "class": "ViewBalance.java (32:75)",
+   "vul_id": "8de90b8f9e929aa068a1af60678bb1ca",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBalance.java (32:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 35,
+   "class": "ViewBalance.java (35:60)",
+   "vul_id": "0f9c74feda33c2528090b2894ab58829",
+   "method": "sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 60,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBalance.java (35:60)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 150,
+   "class": "SendMoney.java (150:22)",
+   "vul_id": "7a16897cddf8da43df28540a46600d82",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (150:22)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 155,
+   "class": "SendMoney.java (155:22)",
+   "vul_id": "63cfda02389a496bf741945c6059db35",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (155:22)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 160,
+   "class": "SendMoney.java (160:22)",
+   "vul_id": "801a3639d71ef2499ecd5f53b2670925",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (160:22)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 57,
+   "class": "SendMoney.java (57:75)",
+   "vul_id": "bab6fad49a89d7082186e9ddad330069",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (57:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 59,
+   "class": "SendMoney.java (59:79)",
+   "vul_id": "6fe93465af92b53ee3388457dc843d74",
+   "method": "SharedPreferences sharedPreferences1 = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 79,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (59:79)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 99,
+   "class": "SendMoney.java (99:25)",
+   "vul_id": "783c1498ff0b0432f6de461f1c7c2219",
+   "method": "Log.d(\"Send Money\", decryptedResponse.toString());",
+   "column": 25,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (99:25)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 150,
+   "class": "SendMoney.java (150:22)",
+   "vul_id": "7a16897cddf8da43df28540a46600d82",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (150:22)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 155,
+   "class": "SendMoney.java (155:22)",
+   "vul_id": "63cfda02389a496bf741945c6059db35",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (155:22)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 160,
+   "class": "SendMoney.java (160:22)",
+   "vul_id": "801a3639d71ef2499ecd5f53b2670925",
+   "method": "send.setVisibility(View.INVISIBLE);",
+   "column": 22,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (160:22)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 57,
+   "class": "SendMoney.java (57:75)",
+   "vul_id": "bab6fad49a89d7082186e9ddad330069",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 75,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (57:75)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 59,
+   "class": "SendMoney.java (59:79)",
+   "vul_id": "6fe93465af92b53ee3388457dc843d74",
+   "method": "SharedPreferences sharedPreferences1 = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 79,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (59:79)"
+  },
+  {
+   "cvss": 3.2,
+   "cwe": "CWE-532",
+   "line": 99,
+   "class": "SendMoney.java (99:25)",
+   "vul_id": "783c1498ff0b0432f6de461f1c7c2219",
+   "method": "Log.d(\"Send Money\", decryptedResponse.toString());",
+   "column": 25,
+   "description": "The App logs information. Sensitive information should not be logged.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/SendMoney.java (99:25)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "ViewBeneficiary.java (87:42)",
+   "vul_id": "c7fc7ca64a8ab9f874a92faeecea3107",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (87:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 92,
+   "class": "ViewBeneficiary.java (92:39)",
+   "vul_id": "8a01ada6fee65abdcc2d00d871a99f63",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (92:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 48,
+   "class": "ViewBeneficiary.java (48:78)",
+   "vul_id": "90f120c3d73ff35228666e6a92fb9570",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (48:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 105,
+   "class": "ViewBeneficiary.java (105:83)",
+   "vul_id": "06c56107a84e98da117cf0cae9c53648",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (105:83)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 87,
+   "class": "ViewBeneficiary.java (87:42)",
+   "vul_id": "c7fc7ca64a8ab9f874a92faeecea3107",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (87:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 92,
+   "class": "ViewBeneficiary.java (92:39)",
+   "vul_id": "8a01ada6fee65abdcc2d00d871a99f63",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (92:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 48,
+   "class": "ViewBeneficiary.java (48:78)",
+   "vul_id": "90f120c3d73ff35228666e6a92fb9570",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (48:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 105,
+   "class": "ViewBeneficiary.java (105:83)",
+   "vul_id": "06c56107a84e98da117cf0cae9c53648",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiary.java (105:83)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 92,
+   "class": "ViewBeneficiaryAdmin.java (92:42)",
+   "vul_id": "e30d41363f6b8db26c387dcbdde33927",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (92:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 97,
+   "class": "ViewBeneficiaryAdmin.java (97:39)",
+   "vul_id": "9aeab75a8e684c38e901ae06a1f2bede",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (97:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 49,
+   "class": "ViewBeneficiaryAdmin.java (49:78)",
+   "vul_id": "0a0c552efa35ff4c761a3c085bc16027",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (49:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 110,
+   "class": "ViewBeneficiaryAdmin.java (110:83)",
+   "vul_id": "0288844b94515b7283bd921693c87548",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (110:83)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 92,
+   "class": "ViewBeneficiaryAdmin.java (92:42)",
+   "vul_id": "e30d41363f6b8db26c387dcbdde33927",
+   "method": "recyclerView.setVisibility(View.GONE);",
+   "column": 42,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (92:42)"
+  },
+  {
+   "cvss": 4.3,
+   "cwe": "CWE-919",
+   "line": 97,
+   "class": "ViewBeneficiaryAdmin.java (97:39)",
+   "vul_id": "9aeab75a8e684c38e901ae06a1f2bede",
+   "method": "emptyView.setVisibility(View.GONE);",
+   "column": 39,
+   "description": "Invisible elements in the view can be used to hide data from the user, but can still be leaked.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (97:39)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 49,
+   "class": "ViewBeneficiaryAdmin.java (49:78)",
+   "vul_id": "0a0c552efa35ff4c761a3c085bc16027",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"apiurl\", Context.MODE_PRIVATE);",
+   "column": 78,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (49:78)"
+  },
+  {
+   "cvss": 5,
+   "cwe": "CWE-919",
+   "line": 110,
+   "class": "ViewBeneficiaryAdmin.java (110:83)",
+   "vul_id": "0288844b94515b7283bd921693c87548",
+   "method": "SharedPreferences sharedPreferences = getSharedPreferences(\"jwt\", Context.MODE_PRIVATE);",
+   "column": 83,
+   "description": "App can write to App Directory. Sensitive Information should be encrypted.",
+   "classMessage": "DamnVulnerableBank/app/src/main/java/com/app/damnvulnerablebank/ViewBeneficiaryAdmin.java (110:83)"
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7058,
+   "class": "dvba.apk (7058:146)",
+   "vul_id": "9c9dd096fc78d5751aee08bd093916f3",
+   "method": "\ufffdHy0\u0018\ufffd\ufffd\u0019\u000c\u0006YO'I\u00127\ufffdi\ufffd\ufffd\u001f\ufffdF\ufffd\ufffd\ufffd\u0012\u0000\ufffd~l\ufffd\ufffdp\ufffd\ufffd8\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdu\ufffd\ufffd\ufffd\ufffdN~\u0017\ufffd\ufffd#\ufffd\u0001Q\ufffd\ufffd\ufffdi\ufffd\ufffdj4\u001ako\ufffdd\ufffdzr\u001c\ufffd|T\ufffdUo\tKKKz_onnnml\ufffd\u0003M\ufffd\ufffd\ufffd.aezvv\ufffd\ufffdL\ufffdTjl5\u001a\ufffd\ufffd5\ufffdGEg\ufffd0|\ufffd{\ufffd\ufffdۿ\ufffdۏ\ufffd\ufffd\u0005\u0005\u0005\u0005\u0005\u0005_\u0005E\u0006tAAAAAA\ufffd;\ufffd\u000f\u000f\ufffdɝ\ufffd\ufffde13K\ufffdB\u0008)I\ufffd\ufffd?h\ufffdJ\ufffd$I666VWW_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd탃63\ufffd\ufffdCk\ufffd}\u0012B$\ufffd\u0019\ufffd\ufffdlM\u0008q\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000f}\ufffd\ufffd\u001f\u0016BLMM\ufffd~\ufffdI\ufffd\ufffd\ufffd\u003cw\ufffdYJ\ufffdb7\ufffd9\ufffd\ufffd\ufffd\u0005h\ufffd\ufffdꝟ\ufffd\ufffd\u0019\ufffd\ufffd\u001f\ufffd\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd;\u0010\ufffd\u0000@\t\ufffd9\ufffdx\ufffd\ufffd\ufffd\ufffd\u001cW\ufffdr\ufffd\\\ufffd\ufffd\ufffd\u0012)\u0000\ufffdu\u0000-5\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffdA\ufffd\ufffd\ufffd\u0014\ufffd\\Q3\ufffdf\ufffd\\\ufffd2\ufffd\u003c\u0005",
+   "column": 146,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/release/dvba.apk (7058:146)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7072,
+   "class": "dvba.apk (7072:3)",
+   "vul_id": "2ade34664a8942d7d18a2652654053b2",
+   "method": "\u0007tAAAAA\ufffd?\u000e{\ufffd\u0013\u0019\u000b\ufffd\ufffd\ufffdG;\ufffd\ufffd\ufffd\u0006@J9\u001c\u000e\u000f\u000e\u000e\ufffd$\ufffd\ufffd\ufffd;8h|\ufffd\ufffd_|\ufffd\ufffdW_~\ufffd\ufffd\ufffd\ufffd}\ufffd+M\u00000\u0018\ufffdR扞\ufffd\ufffdϾO\ufffd\ufffd\ufffdDt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffd/_\u003ew\ufffd\\\ufffd\\v~\ufffdq\ufffd\u0006\u0011\ufffd\ufffd5\\\ufffd\u0017\ufffd1\ufffd\u0019\ufffd\ufffd\u001f\ufffd,#\"\ufffdo\ufffdcW)\ufffd\ufffd\ufffdT*?\ufffd\ufffd?kD\ufffdw\ufffdw\ufffdf\ufffdZv\ufffd\ufffd#\ufffd\ufffd\ufffd\ufffd3\ufffdp\ufffd\ufffd\ufffd\u003c\ufffdT\u001e\ufffdM\ufffdS\ufffdk\ufffd\ufffd\ufffdc\ufffdD\ufffdW[\ufffdN\ufffd#\u0004\ufffd\ufffd\u0008\ufffd\ufffd\ufffd\ufffdv;I\ufffd8\ufffd\ufffd[ZZ\ufffd*\ufffd\ufffdvd\u0007?\ufffd\u001d\ufffd\ufffd\"\ufffd${\ufffd\ufffd8)\u001b\ufffd\ufffd\u0010\ufffd\ufffd\u0013\u0011\u001e݅\ufffdKz\\f\ufffd\ufffd_",
+   "column": 3,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/release/dvba.apk (7072:3)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7081,
+   "class": "dvba.apk (7081:25)",
+   "vul_id": "273e7886da0c29ff5382b856fa9e3b9f",
+   "method": "\ufffdq\ufffd\ufffd\u0001\ufffd\ufffd\u0017~\ufffdG\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0007FAAAAA\ufffdW\ufffd\ufffd\ufffdp@\u0017\u0014\u0014\u0014\u0014\u0014|\ufffd\ufffd;\ufffd~\ufffdأ\ufffdz\ufffd\ufffd\u0001\ufffd\ufffd\ufffd,˄\u0010\u0015\ufffd\ufffd|n\ufffdu\ufffd\ufffd\u0000\ufffd4\ufffd\ufffd\ufffdwrsg{\ufffd9\ufffdoܸ\ufffd\ufffd\ufffdq\ufffd\ufffdm\ufffd\ufffdj\ufffd:\u0018\u000c\ufffd\ufffd3\u001c\u000e1\ufffd8'\u0013\u003c\ufffdRQ\u0014\t!j\ufffd\ufffdp8d\ufffdz\ufffd\u003e??\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffdx\ufffdV\ufffd\ufffd8\u0008\u0002\u0000\ufffd\ufffdHŧɼ\u0008\ufffd\ufffd\ufffd#\ufffd\ufffd\u001e\ufffd\u00135\ufffd\u0015\ufffd\ufffd\ufffd\u0010\ufffd\ufffd\ufffdPK\ufffdD\ufffdP\u0018\ufffd;{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd|y\ufffd`_\ufffd\u0008D\ufffdf\u0026\ufffd\u0007.\ufffd\ufffd\ufffd\ufffd\ufffdtzz\ufffdl\ufffd#\"e\ufffd\u0000\ufffd\u000c\ufffdy\ufffdzQ\u0014\ufffd\ufffd\u0001\ufffd\ufffd%\ufffd\ufffd\ufffdը\ufffd\u0026 \ufffd\ufffd\u000e,\ufffdE\ufffd\ufffd\ufffd\ufffd.\\Y\u000e\ufffd \ufffd\u0000a3\u0000$̑r\ufffd\ufffd\ufffd\ufffd\ufffd\u0000m\ufffd++\ufffd\ufffd\ufffdz_\ufffd\ufffd*(x\u00143\u0019\ufffd\ufffd\ufffd\ufffd\ufffdC\ufffd8\ufffd3\u001f^o,\ufffd\ufffdl\ufffd\u0026I\ufffdgrooo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffd\ufffd\u0001\ufffdCBg\u0006\ufffdjlr\ufffd_x\ufffd\ufffd\u000b/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\u000c\ufffd\u003e\ufffd0\ufffd\u003e\ufffdl~\ufffd\ufffd\ufffdq-\ufffd\u0000p\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffda\u001f\ufffd\u0000\ufffd`(\ufffd\ufffd\u000b|\ufffd\ufffd\\_\u0008\ufffd\u000f\u0013\u0000AVw;\ufffdQ\ufffd\ufffdT6\ufffdl6\ufffd\ufffd\ufffd^\ufffd\u001baྌ@\ufffdE\ufffd\ufffd\ufffd\ufffd\\K\u0008\u0011\ufffd\u000bWR\u0010\ufffd\t\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffdC\ufffd\ufffd\ufffd\u0013ǹ\u001cV\ufffdݮ\ufffd\u003e\u0000\u0001\u0005\ufffdz\ufffd\ufffdl\ufffd\ufffd:\u0026c\ufffd\ufffdd\ufffd\u0016\u001d\ufffd\u0015\u001d\ufffd",
+   "column": 25,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/release/dvba.apk (7081:25)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 11383,
+   "class": "dvba.apk (11383:277)",
+   "vul_id": "caf8e9451fd3dba043223b5c77ca5a81",
+   "method": "\ufffd\u0003\u0000%\ufffd\u0003\u00004\ufffd\u0003\u0000C\ufffd\u0003\u0000O\ufffd\u0003\u0000c\ufffd\u0003\u0000\u000b\u000b%1$d / %2$d\u0000\u0008\u0008%1$d%2$s\u0000\u0004\u0004%1$s\u0000\u000b%1$s – %2$s\u0000\u000f\u0011%1$s – End date\u0000\u0013\u0013%d new notification\u0000\u0014\u0014%d new notifications\u0000--1:932398433474:android:64f0cff260d1f223f3675b\u0000\u000c\u000c932398433474\u0000HH932398433474-59j4a17sqbf1r9m1f2eqqlreo6a5qsmt.apps.googleusercontent.com\u0000''AIzaSyBbOHG6DDa6DOcRGEg57mw9nXYXcw6la3c\u0000  Authentication canceled by user.\u0000\u0014\u0014Change to next month\u0000\u0018\u0018Change to previous month\u0000%%Character limit exceeded %1$d of %2$d\u0000\u001f\u001fCharacters entered %1$d of %2$d\u0000\t\tChip text\u0000",
+   "column": 277,
+   "description": "Google API key. File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "DamnVulnerableBank/app/release/dvba.apk (11383:277)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 279,
+   "class": "intercept-burp.png (279:464)",
+   "vul_id": "918ed8cf3cf7ababd1a3ab01d6ebd45d",
+   "method": "z\ufffd\ufffd5\u0000())\ufffdܹSSS\u0013\u0000RRRbcc߾}K\"\ufffd03:;;}||\ufffd_\ufffdN\ufffdR\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0019.\u0019\ufffd\ufffd\u0008\ufffd\ufffd\ufffd\ufffd\\\ufffd\u0012\ufffd\ufffd]\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd$\ufffd:\u0005\u0006\u0006\ufffd\ufffd\u000f\ufffd\u0016ə\ufffd\ufffd*2\ufffd\ufffd`\ufffd\ufffd\ufffd\u0018\ufffdNf\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\ufffd袢\"YYYGGG\u0013\u0013\u0013Z\ufffd\ufffd\ufffd\"KK\ufffd\ufffd\ufffdpMMM΍\ufffdC\ufffd\u0010111%%%www\ufffd=\ufffd\\\ufffd\ufffdU\ufffde\ufffd\ufffd\ufffdz\ufffdN_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffdƾ\u001e8p\ufffdӧO\ufffd\ufffd\ufffd\ufffdj|\"\u0010\u0008\u0004\u0002\ufffd@|=\ufffd\ufffd\ufffd\u0000\ufffd1\ufffdrO\u0001\u001d\u001aW\ufffd\u0016\ufffd\ufffdq\ufffd\ufffdQ\ufffdY\ufffd\ufffdUT4\ufffdٓ\ufffd\ufffd\ufffd;\u0008\ufffd৴\u0014\ufffdl\u0001*\u0015BB`ڴ\ufffd\ufffd\u0006\ufffd\ufffdõ\ufffd\u0007\ufffd\ufffd\u001bv\ufffd\ufffd\ufffdb̘1\ufffd\u003e}\ufffdR\ufffd\ufffd\ufffd\ufffdYYY\ufffd?\ufffd0a\u0002}\ufffdcǎY[[sh\ufffd\ufffd\ufffd\ufffd\ufffdC\ufffdlmm\u000f\u001d:\ufffd\ufffd\ufffd\ufffd\ufffdM\u001b\u001b\ufffd\ufffd\ufffd\u000c\ufffdPee%\ufffd\ufffd\u000eV\ufffd\ufffd\ufffd\ufffdڵk\u0000\ufffd{\ufffd\ufffd\ufffd\ufffdp777{{\ufffdݻw/^\ufffd\u0018\u0000nݺeoo\ufffd\ufffd\ufffd㔔\u0014OOO\u001d\u001d\u001dZ\ufffd$..\ufffdÇ\u000f\ufffdo\ufffd\u0006\u0000gg焄\ufffd-[\ufffd\ufffd\u0018͡\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0014\u0000\ufffd\ufffd\ufffdF\ufffd\u0018\ufffd\ufffdt\ufffd\u0002ps\ufffd\ufffd 07\u0017\ufffd\ufffd\ufffd8\ufffd\ufffd$###Ν\ufffd#\ufffd\ufffd\ufffdAAAAAAS\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffdLLL\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdX\ufffd\ufffd'\ufffd\ufffdhoo\ufffd\ufffd̴\ufffd\ufffd\ufffd\ufffd\ufffdf\ufffd\ufffd_\ufffd\u0026\ufffd\u000fӰ\ufffd\ufffd\u0019\ufffd\ufffdK\ufffd\u001a\u0018\u0018hjj\ufffd\ufffd\ufffd^\ufffdz\ufffdƍ\u001b\u003c\u0019\ufffd@ \u0010\u0008\u0004\u0002\ufffd\u000b\ufffdfYց\u0003鑑+\u0017,\ufffd(\"\"0i\ufffd\ufffd\u000b\u00176\u0002@qq\ufffd\ufffdn\ufffd\ufffd\ufffd\ufffd\ufffdnLqq\u001dV\u0012\ufffds\ufffd\ufffd\ufffd\u001a1\ufffdWFf\ufffd\ufffd\ufffd\u0005\u001c\ufffdUU-+V$\ufffd\ufffd{\ufffd\ufffd\ufffdfg\ufffd\ufffd$\ufffd\ufffd\ufffd\ufffdm\ufffd%Y\ufffd}8\ufffd;\ufffd2\ufffd\ufffd\u0003\ufffdM\u0006\tO\u0026ap3\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdk\ufffd\ufffd\ufffd=\ufffd\ufffd.--]\ufffdf\ufffd\ufffd\ufffdʚ5k\ufffd\ufffdr\u0000\ufffds\ufffd\ufffdҥK\u0015\u0015\u0015\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdب\ufffd\ufffd.^\ufffd\ufffd\ufffd\u001d5\ufffd祻\u001b֯\ufffdϟa\ufffd*\ufffd\ufffd\u001fhk\u0010\u0008\ufffd`^WT\ufffds\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdH\ufffd\ufffd3'ZD\ufffdcϞ\u0014\u0006\ufffdܣ\ufffd\u001d;vlEEEZZ\u001a\u001f\u001fߵk\ufffdjkk\ufffd\ufffd\u000eeee\ufffd\ufffd\ufffdX\u003c\ufffd'Ξ=\ufffd\ufffd\ufffd/..\ufffdс7\ufffdB\u0000\u0000 \u0000IDAT\ufffd\ufffd\ufffd\ufffd6d\ufffd\u0010\ufffdw1\u000e\ufffdB\ufffdљ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u001e=z\ufffd\ufffdѮ\ufffd\ufffdأ\ufffd\ufffd\ufffd$\u001f\u001f\u001f\u000e\ufffd\ufffd\ufffdp\u0004\u0002AJJ",
+   "column": 464,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "guide/images/intercept-burp.png (279:464)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 501,
+   "class": "new-app-crash.png (501:1221)",
+   "vul_id": "135c4a699c1e95b04e48fd23bfae3f81",
+   "method": "\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffdm\ufffd\ufffd\ufffd%3\ufffd\ufffd\ufffd\ufffd\ufffde\u0018F\ufffd\ufffd-X\ufffd --\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdZ,\ufffd\ufffd{J\u0010\u0004\u0001^\ufffd\u0000.\u000b\u003cK\ufffd;\ufffd\ufffd\ufffdu\ufffd\ufffdR\ufffd\ufffd\ufffd\ufffd\ufffd|~\ufffd?x\ufffd0\u0018\u000ciiiyyyo\ufffd\ufffdVqq\ufffd\ufffdA\ufffd\u001e|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffdpdgg\ufffdt:I\ufffd0\ufffd\u0006\ufffd\ufffd\ufffdi\ufffd*\ufffd0\ufffd\ufffdhl^\ufffd\u0014\ufffd\ufffd\ufffd\ufffd\ufffd\u001e\u001b\u001b\ufffdt\ufffd\ufffdW^yEQ\ufffdiӦEFFVVV.[\ufffdL\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\u000e\ufffd\ufffd\ufffd\ufffd9s\ufffd$''oܸ\ufffd\ufffd\ufffd_njj\ufffd\ufffd\ufffd\u001b\ufffd\ufffd\ufffdGڇ###\ufffd\ufffd\ufffdO\ufffdv.yX\u0004A\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd$I\u0014šC\ufffd\ufffd\u001e=\ufffd̙3\ufffd\u0016-ڳgO\ufffd~\ufffdƌ\u0019S]]M\ufffd\ufffduuu˗//--\ufffd$i\ufffd\ufffd\ufffdcƌ\ufffd\ufffd\ufffd[\ufffdh\ufffd޽{\u0007\u000f\u001e\u003cp\ufffd@Q\u0014\ufffd^\ufffd̙3\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd%K\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffdd2mٲe\ufffd\ufffd\ufffd\u0008\ufffdM\ufffd6mڴI\u0010\u0004\ufffdV{\ufffd\ufffd\ufffd\ufffd%\ufffdx\ufffd\ufffdN7u\ufffdT\ufffd\ufffd\ufffd\ufffd\ufffdĉ\u0013\u0007\u001at\ufffd\ufffd\ufffd7\ufffdx\ufffd\ufffd\ufffd(**\ufffd\ufffdNn\ufffd\ufffd\u0015\ufffd\u0026Q\u00145y\ufffd\ufffd\ufffd\ufffd{/77\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd277\ufffd\ufffd\ufffdޛ\u003cyr\ufffd+\t!\u001e\ufffd\ufffd.-\ufffd\ufffdl\ufffd\u000f?\ufffd\ufffd\ufffd\ufffdL\ufffd81x\u0007\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd][[\ufffdd\ufffd\u0012\ufffd\ufffdSZZ\ufffdq\ufffdƺ\ufffd\ufffdO?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd`]\ufffd%o:QQQG\ufffd\u001cy\ufffd\ufffd7\ufffd\ufffd\ufffd\u001a\u001a\u001a\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd\u0011BEEE\ufffd\u0012\ufffd\ufffd\ufffdD\ufffd娨\ufffd\ufffd\ufffd\ufffd-[\ufffd\ufffdٳ\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffdx\ufffd\ufffdG\ufffd-\ufffd\u0015\u0015\u0015\ufffd\ufffd\u001f\ufffdm\ufffdv\ufffdx\ufffd1\ufffdy\ufffda\u0018Y\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffdZPP\ufffd\ufffd\u0007\u001f \ufffd\ufffdn\ufffdZWW7p\ufffd@\ufffdqQQ\ufffd,˂ \u0014\u0017\u0017\u000b\ufffd@Q\ufffd\ufffd\ufffdë\ufffd\ufffd\u003e\ufffd\ufffdS\ufffd\ufffdg\ufffd}VZZ:u\ufffdT\ufffd\ufffd{\ufffdM7EGG\ufffd\ufffd\ufffd\u000b%%%\u003cϯ[\ufffdN\ufffdV\ufffd\ufffd\ufffd\ufffd\ufffdp\ufffdg\ufffd\ufffd\ufffdr\ufffd8\u001f\u001b\u001bk2\ufffd֬Yc\ufffd\ufffdkkk_}\ufffd՘\ufffd\ufffd\ufffd\ufffd\u001c\ufffd\ufffd'O\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffdׯZ\ufffd\ufffd̙3Wp\ufffd.\u0001\ufffd\ufffd5l\ufffdر\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffdgϞݫW/\ufffdJ\ufffdR\ufffdz\ufffd\ufffd5{\ufffd\ufffd\ufffd?\ufffd|׮]cǎ\ufffd@\ufffdP_\u0014\ufffd\u0018\ufffd\ufffd\ufffd\u0019\ufffd}\u003e_^^^\ufffd\ufffd\ufffd\ufffd(hI\ufffdX\ufffd\ufffdi\ufffd\ufffd\ufffd\ufffd\ufffdՑz\u0018\ufffd\ufffdU\ufffdׇ~\ufffd\t\u0004\u0002\ufffdׯ\ufffdiz\ufffdĉ\t\t\t\t\t\t\u0008!R\ufffd\tn\ufffd\u003cU\ufffd\ufffdű,\ufffd\ufffd\ufffd\ufffdq\u001c\ufffd\ufffd/((\ufffd\ufffd\ufffd룣\ufffd\ufffd\ufffd\ufffd\u0010B\u0014E\u0005\ufffdlC\ufffd(JDDDTTTQQш\u0011#h\ufffd\ufffd$I\ufffd$\ufffd(\ufffd\u003c\u0003\ufffd\ufffd\ufffd`hjj\ufffd\ufffd\ufffd\"Kz\u003c\ufffd\u003e}\ufffd\ufffd\u003c߻wo\ufffd\ufffdWUUE\ufffd\ufffd\ufffd\ufffd\ufffd-[VYYټ,\ufffd1\ufffde\ufffdb\ufffd\ufffd4\ufffd\ufffd\ufffd\u0007\u000f\u001e\ufffd1\u000e\u0004\u0002\ufffd$\ufffd\ufffd۷\ufffd\ufffdH\ufffdՖ\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffdI\ufffd\ufffd\ufffd\ufffd傖\ufffdk\ufffdc\ufffd=\ufffdx\ufffdb\ufffd\ufffdsssW\ufffdZ\ufffdw\ufffd\ufffd\u000b\u0017. \ufffdl6۸q\ufffdfϞ\ufffd\ufffd\ufffd\ufffd~\ufffd\ufffd%K\ufffd\ufffd\u0002P\ufffd \u001e\ufffd;\ufffdN\ufffdu񠡡\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\u0008!r\ufffdg\ufffd\ufffd]\u0012\ufffd{O^n'}\ufffd\ufffd(\ufffdYYYs\ufffd\ufffd1\ufffdL\ufffd$]\ufffd[\ufffd\ufffd($'n\ufffd\ufffdl\ufffd\ufffd\ufffd\"\ufffd:\ufffd(J\ufffd4\ufffd`Cڷ333IE?BH\ufffd\ufffd\ufffd\ufffdյ\ufffdc*\ufffdB\ufffdt||\ufffd\ufffdy\ufffd\ufffd7\u001a\ufffd\ufffd\ufffd\ufffd$I\ufffd\u0010\ufffd\ufffd\ufffd\u000f\u001f\u003e\ufffd\ufffdh(\ufffdB67mڴ\ufffd\ufffd?\u0012\ufffd\ufffd^\ufffd|\ufffd\u000e\ufffdK\u0007\ufffd4!\ufffd\ufffd\ufffd\ufffdc\ufffd\ufffd\ufffd\ufffdt\ufffd\ufffdO\u003c\ufffdĆ\u001b\ufffd\ufffdWAAAAA\ufffd?\ufffd\ufffd\ufffdY\ufffdf\ufffd\ufffd\ufffd;/\ufffd\ufffd2B\ufffd\ufffdB\u0002ăpg\ufffdZ\ufffd\ufffd\ufffd\ufffd(q\ufffd\ufffdJ\ufffd\"\u001dx: \ufffdG\u0004R\u001b\ufffdp\ufffd\ufffd\u000b\u0017.̙3G\ufffdRM\ufffd0\ufffd\ufffd\ufffd\u001fosar\u0003%\u0012\ufffd\ufffdk\ufffd\ufffd/\ufffd$If\ufffd\ufffd\ufffdI\ufffdo\ufffdn\ufffd\ufffd\ufffdG\u001f\u0005{\ufffdr\u001c׼cUs\ufffd\ufffd\ufffdK\ufffd,\t\ufffd-\ufffd\ufffd8\ufffd\u000bf\ufffd|@\ufffd\ufffd\ufffd\u0017_|1??\ufffd,IZ\ufffd-\u0016\u000b\ufffd\ufffd\ufffdv\ufffdJuY\u000fR \ufffd\ufffd\u001d;v\ufffd\ufffd\ufffdn\ufffd{ڴi\ufffdLc\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd͛7/Y\ufffd\ufffd\ufffd\u001f~طo_\ufffd\ufffdC\ufffd!\ufffd%\u0026\u0026vi\ufffd\ufffd\ufffd]ֺ\ufffd\ufffdE\ufffdV\ufffd\ufffd\ufffd\ufffdQ\ufffdT*\ufffdҥK\ufffd\ufffd\ufffd###[\u003c\ufffd\u0004\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffde9!!\ufffd4N\ufffd\ufffdh\ufffd\ufffdx\ufffd\u000fq\ufffdv0\u001b\ufffd(\u000e\u00180@\ufffd՞9sF\ufffdV766",
+   "column": 1221,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "guide/images/new-app-crash.png (501:1221)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7058,
+   "class": "dvba.apk (7058:146)",
+   "vul_id": "9c9dd096fc78d5751aee08bd093916f3",
+   "method": "\ufffdHy0\u0018\ufffd\ufffd\u0019\u000c\u0006YO'I\u00127\ufffdi\ufffd\ufffd\u001f\ufffdF\ufffd\ufffd\ufffd\u0012\u0000\ufffd~l\ufffd\ufffdp\ufffd\ufffd8\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdu\ufffd\ufffd\ufffd\ufffdN~\u0017\ufffd\ufffd#\ufffd\u0001Q\ufffd\ufffd\ufffdi\ufffd\ufffdj4\u001ako\ufffdd\ufffdzr\u001c\ufffd|T\ufffdUo\tKKKz_onnnml\ufffd\u0003M\ufffd\ufffd\ufffd.aezvv\ufffd\ufffdL\ufffdTjl5\u001a\ufffd\ufffd5\ufffdGEg\ufffd0|\ufffd{\ufffd\ufffdۿ\ufffdۏ\ufffd\ufffd\u0005\u0005\u0005\u0005\u0005\u0005_\u0005E\u0006tAAAAAA\ufffd;\ufffd\u000f\u000f\ufffdɝ\ufffd\ufffde13K\ufffdB\u0008)I\ufffd\ufffd?h\ufffdJ\ufffd$I666VWW_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd탃63\ufffd\ufffdCk\ufffd}\u0012B$\ufffd\u0019\ufffd\ufffdlM\u0008q\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000f}\ufffd\ufffd\u001f\u0016BLMM\ufffd~\ufffdI\ufffd\ufffd\ufffd\u003cw\ufffdYJ\ufffdb7\ufffd9\ufffd\ufffd\ufffd\u0005h\ufffd\ufffdꝟ\ufffd\ufffd\u0019\ufffd\ufffd\u001f\ufffd\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd;\u0010\ufffd\u0000@\t\ufffd9\ufffdx\ufffd\ufffd\ufffd\ufffd\u001cW\ufffdr\ufffd\\\ufffd\ufffd\ufffd\u0012)\u0000\ufffdu\u0000-5\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffdA\ufffd\ufffd\ufffd\u0014\ufffd\\Q3\ufffdf\ufffd\\\ufffd2\ufffd\u003c\u0005",
+   "column": 146,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "dvba.apk (7058:146)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7072,
+   "class": "dvba.apk (7072:3)",
+   "vul_id": "2ade34664a8942d7d18a2652654053b2",
+   "method": "\u0007tAAAAA\ufffd?\u000e{\ufffd\u0013\u0019\u000b\ufffd\ufffd\ufffdG;\ufffd\ufffd\ufffd\u0006@J9\u001c\u000e\u000f\u000e\u000e\ufffd$\ufffd\ufffd\ufffd;8h|\ufffd\ufffd_|\ufffd\ufffdW_~\ufffd\ufffd\ufffd\ufffd}\ufffd+M\u00000\u0018\ufffdR扞\ufffd\ufffdϾO\ufffd\ufffd\ufffdDt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffd/_\u003ew\ufffd\\\ufffd\\v~\ufffdq\ufffd\u0006\u0011\ufffd\ufffd5\\\ufffd\u0017\ufffd1\ufffd\u0019\ufffd\ufffd\u001f\ufffd,#\"\ufffdo\ufffdcW)\ufffd\ufffd\ufffdT*?\ufffd\ufffd?kD\ufffdw\ufffdw\ufffdf\ufffdZv\ufffd\ufffd#\ufffd\ufffd\ufffd\ufffd3\ufffdp\ufffd\ufffd\ufffd\u003c\ufffdT\u001e\ufffdM\ufffdS\ufffdk\ufffd\ufffd\ufffdc\ufffdD\ufffdW[\ufffdN\ufffd#\u0004\ufffd\ufffd\u0008\ufffd\ufffd\ufffd\ufffdv;I\ufffd8\ufffd\ufffd[ZZ\ufffd*\ufffd\ufffdvd\u0007?\ufffd\u001d\ufffd\ufffd\"\ufffd${\ufffd\ufffd8)\u001b\ufffd\ufffd\u0010\ufffd\ufffd\u0013\u0011\u001e݅\ufffdKz\\f\ufffd\ufffd_",
+   "column": 3,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "dvba.apk (7072:3)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 7081,
+   "class": "dvba.apk (7081:25)",
+   "vul_id": "273e7886da0c29ff5382b856fa9e3b9f",
+   "method": "\ufffdq\ufffd\ufffd\u0001\ufffd\ufffd\u0017~\ufffdG\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0007FAAAAA\ufffdW\ufffd\ufffd\ufffdp@\u0017\u0014\u0014\u0014\u0014\u0014|\ufffd\ufffd;\ufffd~\ufffdأ\ufffdz\ufffd\ufffd\u0001\ufffd\ufffd\ufffd,˄\u0010\u0015\ufffd\ufffd|n\ufffdu\ufffd\ufffd\u0000\ufffd4\ufffd\ufffd\ufffdwrsg{\ufffd9\ufffdoܸ\ufffd\ufffd\ufffdq\ufffd\ufffdm\ufffd\ufffdj\ufffd:\u0018\u000c\ufffd\ufffd3\u001c\u000e1\ufffd8'\u0013\u003c\ufffdRQ\u0014\t!j\ufffd\ufffdp8d\ufffdz\ufffd\u003e??\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffdx\ufffdV\ufffd\ufffd8\u0008\u0002\u0000\ufffd\ufffdHŧɼ\u0008\ufffd\ufffd\ufffd#\ufffd\ufffd\u001e\ufffd\u00135\ufffd\u0015\ufffd\ufffd\ufffd\u0010\ufffd\ufffd\ufffdPK\ufffdD\ufffdP\u0018\ufffd;{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd|y\ufffd`_\ufffd\u0008D\ufffdf\u0026\ufffd\u0007.\ufffd\ufffd\ufffd\ufffd\ufffdtzz\ufffdl\ufffd#\"e\ufffd\u0000\ufffd\u000c\ufffdy\ufffdzQ\u0014\ufffd\ufffd\u0001\ufffd\ufffd%\ufffd\ufffd\ufffdը\ufffd\u0026 \ufffd\ufffd\u000e,\ufffdE\ufffd\ufffd\ufffd\ufffd.\\Y\u000e\ufffd \ufffd\u0000a3\u0000$̑r\ufffd\ufffd\ufffd\ufffd\ufffd\u0000m\ufffd++\ufffd\ufffd\ufffdz_\ufffd\ufffd*(x\u00143\u0019\ufffd\ufffd\ufffd\ufffd\ufffdC\ufffd8\ufffd3\u001f^o,\ufffd\ufffdl\ufffd\u0026I\ufffdgrooo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffd\ufffd\u0001\ufffdCBg\u0006\ufffdjlr\ufffd_x\ufffd\ufffd\u000b/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\u000c\ufffd\u003e\ufffd0\ufffd\u003e\ufffdl~\ufffd\ufffd\ufffdq-\ufffd\u0000p\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffda\u001f\ufffd\u0000\ufffd`(\ufffd\ufffd\u000b|\ufffd\ufffd\\_\u0008\ufffd\u000f\u0013\u0000AVw;\ufffdQ\ufffd\ufffdT6\ufffdl6\ufffd\ufffd\ufffd^\ufffd\u001baྌ@\ufffdE\ufffd\ufffd\ufffd\ufffd\\K\u0008\u0011\ufffd\u000bWR\u0010\ufffd\t\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffdC\ufffd\ufffd\ufffd\u0013ǹ\u001cV\ufffdݮ\ufffd\u003e\u0000\u0001\u0005\ufffdz\ufffd\ufffdl\ufffd\ufffd:\u0026c\ufffd\ufffdd\ufffd\u0016\u001d\ufffd\u0015\u001d\ufffd",
+   "column": 25,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "dvba.apk (7081:25)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 11383,
+   "class": "dvba.apk (11383:277)",
+   "vul_id": "caf8e9451fd3dba043223b5c77ca5a81",
+   "method": "\ufffd\u0003\u0000%\ufffd\u0003\u00004\ufffd\u0003\u0000C\ufffd\u0003\u0000O\ufffd\u0003\u0000c\ufffd\u0003\u0000\u000b\u000b%1$d / %2$d\u0000\u0008\u0008%1$d%2$s\u0000\u0004\u0004%1$s\u0000\u000b%1$s – %2$s\u0000\u000f\u0011%1$s – End date\u0000\u0013\u0013%d new notification\u0000\u0014\u0014%d new notifications\u0000--1:932398433474:android:64f0cff260d1f223f3675b\u0000\u000c\u000c932398433474\u0000HH932398433474-59j4a17sqbf1r9m1f2eqqlreo6a5qsmt.apps.googleusercontent.com\u0000''AIzaSyBbOHG6DDa6DOcRGEg57mw9nXYXcw6la3c\u0000  Authentication canceled by user.\u0000\u0014\u0014Change to next month\u0000\u0018\u0018Change to previous month\u0000%%Character limit exceeded %1$d of %2$d\u0000\u001f\u001fCharacters entered %1$d of %2$d\u0000\t\tChip text\u0000",
+   "column": 277,
+   "description": "Google API key. File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "dvba.apk (11383:277)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 5232,
+   "class": "insider (5232:4244)",
+   "vul_id": "c1c32e34d31402ef5f208cf7cde4e058",
+   "method": "NSTemporaryDirectory\\(\\),XML syntax error on line \\w+.withUnsafeBytes\\s*{.*_cgo_thread_start missing_html_template_cssescaper_html_template_urlescaperallgadd: bad status Gidleandroid.permission.BACKUPandroid.permission.CAMERAandroid.permission.REBOOTandroid\\.database\\.sqlitearena already initializedbad status in shrinkstackbad system huge page sizecan't evaluate command %qcan't print %s of type %schange screen orientationchansend: spurious wakeupcheckdead: no m for timercontent\\.ClipboardManagercontext deadline exceededexpected string; found %sexplicit tag has no childhttp2: Framer %p: read %vhttp2: invalid header: %vhttp2: unsupported schemeillegal character code %Uillegal number syntax: %qinconsistent poll.fdMutexinvalid character entity invalid cross-device linkinvalid network interfaceinvalid object identifierinvalid username/passwordjson: Unexpected key typejson: unsupported value: manage a list of accountsmanage application tokensmissing stack in newstackmissing traceGCSweepStartmodify battery statisticsnet/url: invalid userinfono answer from DNS serverno buffer space availableno hex data for %x stringno such device or addressno such file or directoryno such network interfaceno suitable address foundoperation now in progressport number out of range reflect.Value.OverflowIntreflect.Value.SetMapIndexreflect: Bits of nil Typereleasep: invalid p stateremaining pointer buffersresource deadlock avoidedruntime: epollwait on fd runtime: misaligned func runtime: program exceeds runtime·lock: lock countslice bounds out of rangesocket type not supportedsq0atp-[0-9A-Za-z\\-_]{22}sq0csp-[0-9A-Za-z\\-_]{43}startm: p has runnable gsstoplockedm: not runnablestrict-transport-securitytls: protocol is shutdownturns the phone on or offunexpected '[' in addressunexpected ']' in addressunexpected end element \u003c/unexpected fault address unknown Go type for slicewrite contact informationxml: end tag with no name using unaddressable value using zero Value argument/private/var/tmp/cydia.log1455191522836685180664062572759576141834259033203125: day-of-year out of rangeEAACEdEose0cBA[0-9A-Za-z]+ECDSA verification failureGODEBUG: can not disable \"HTTP Version Not SupportedLocal File I/O Operations.Move application resourcesMust be required by a linkSIGSTOP: stop, unblockable\\bdebug\\s*=\\s*\"\\s*true\\s*\"_html_template_attrescaper_html_template_htmlescaperaccess check-in propertiesaddress type not supportedandroid.intent.action.MAINandroid.permission.USE_SIPandroid.permission.VIBRATEasn1: invalid UTF-8 stringbad certificate hash valuebase 128 integer too largebidirule: failed Bidi Rulecall from unknown functioncannot marshal DNS messagechacha20: counter overflowchacha20: wrong nonce sizechange your audio settingscom\\.noshufou\\.android\\.sucom\\.thirdparty\\.superusercorrupted semaphore ticketcriterion lacks equal signcryptobyte: internal errordnsmessage.NSResource{NS: dnsmessage.Question{Name: duplicate pseudo-header %qencountered a cycle via %sentersyscall inconsistent expected complex; found %sexpected integer; found %sforEachP: P did not run fnfreedefer with d.fn != nilhttp2: Framer %p: wrote %vid (%v) \u003c= evictCount (%v)initSpan: unaligned lengthinteger overflow on token invalid argument to Int31ninvalid argument to Int63ninvalid port %q after hostinvalid request descriptorinvalid value; expected %smalformed HTTP status codemalformed chunked encodingname not unique on networknet/http: request canceledno CSI structure availableno message of desired typeno templates in name spacenon sequence tagged as setnotewakeup - double wakeupout of memory (stackalloc)persistentalloc: size == 0read from empty dataBufferreadLoopPeekFailLocked: %vreflect.Value.CanInterfacereflect.Value.MethodByNamereflect.Value.OverflowUintrequired key not availableruntime: bad span s.state=runtime: pipe failed with segment prefix is reservedshrinking stack in libcallstartlockedm: locked to mestopped after 10 redirectstemplate escaped correctlytoo many colons in addresstoo many slice indexes: %dtruncated base 128 integerunclosed criterion bracketunexpected . after term %qunexpected right paren %#Uunterminated quoted string is not assignable to type !#$%\u0026()*+-./:\u003c=\u003e?@[]^_{|}~ %q in attribute name: %.32q-----BEGIN CERTIFICATE----------BEGIN PRIVATE KEY-----.*\\.ExecuteDataSet\\(.*\".*\\+/Applications/blackra1n.app363797880709171295166015625Analysing Java dependenciesCall phone numbers directlyCurveP256CurveP384CurveP521DATA frame with stream ID 0G waiting list is corruptedNo output logs of executionSIGILL: illegal instructionSIGXCPU: cpu limit exceeded\"2006-01-02T15:04:05Z07:00\"_html_template_jsstrescaper_html_template_jsvalescaperaccess-control-allow-originaddress not a stack addressafter object key:value pairandroid.permission.INTERNETandroid.permission.READ_SMSandroid.permission.SEND_SMSandroid.permission.SET_TIMEandroid.permission.SHUTDOWNcan't index item of type %scan't slice item of type %schange network connectivitychannel number out of rangecipher: incorrect length IVcommunication error on sendcrypto/rsa: invalid moduluscryptobyte: invalid OID: %vcryptobyte: length overflowcurrent time %s is after %sdisplay system-level alertsdnsmessage.SOAResource{NS: expand / collect status barflag needs an argument: -%sgcstopm: not waiting for gcgrowslice: cap out of rangehkdf: entropy limit reachedhttp chunk length too largehttp2: response body closedinsufficient security levelinternal lockOSThread errorinvalid HTTP header name %qinvalid argument to Shuffleinvalid boolean flag %s: %vinvalid dependent stream IDinvalid profile bucket typeinvalid type for comparisonkey was rejected by servicemakechan: size out of rangemakeslice: cap out of rangemakeslice: len out of rangemap has no entry for key %qmspan.sweep: bad span statenet/http: invalid method %qnet/http: use last responsenew\\s+PasswordValidator\\(\\)not a XENIX named type fileonReceivedSslError\\(WebViewprogToPointerMask: overflowrange can't iterate over %vreflect.Value.OverflowFloatrunlock of unlocked rwmutexruntime: asyncPreemptStack=runtime: checkdead: find g runtime: checkdead: nmidle=runtime: corrupted polldescruntime: netpollinit failedruntime: thread ID overflowruntime·unlock: lock countsignal received during forksigsend: inconsistent statestack size not a power of 2startm: negative nmspinningstopTheWorld: holding lockstime: invalid location nametls: short read from Rand: too many declarations in %sunsupported protocol schemework.nwait was \u003e work.nprocxml: opening charset %q: %vxml: start tag with no name args stack map entries for %q is not a defined function/Applications/SBSettings.app/proc/sys/net/core/somaxconn/system/etc/security/cacerts18189894035458564758300781259094947017729282379150390625Create Bluetooth connectionsEd25519 verification failureFixedStack is not power-of-2Not found plist files at %s",
+   "column": 4244,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (5232:4244)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 4449,
+   "class": "insider (4449:5861)",
+   "vul_id": "d9f850c938b1827d58ba2531c57c09e5",
+   "method": "zeroedBase\u0000\u0000\u0000\u0000\u000bcrypto/hmac\u0000\u0000\u0000\u0000\u000bcrypto/rand\u0000\u0000\u0000\u0000\u000bcrypto/sha1\u0000\u0000\u0000\u0000\u000bcrypto/x509\u0000\u0000\u0000\u0000\u000bsync/atomic\u0000\u0000\u000b**flag.Flag\u0000\u0000\u000b*[10]string\u0000\u0000\u000b*[11]string\u0000\u0000\u000b*[128]uint8\u0000\u0000\u000b*[15]string\u0000\u0000\u000b*[16]uint64\u0000\u0000\u000b*[17]string\u0000\u0000\u000b*[1][]int32\u0000\u0000\u000b*[1][]uint8\u0000\u0000\u000b*[1]uintptr\u0000\u0000\u000b*[255]uint8\u0000\u0000\u000b*[256]uint8\u0000\u0000\u000b*[2]uintptr\u0000\u0000\u000b*[39]string\u0000\u0000\u000b*[3][]uint8\u0000\u0000\u000b*[512]uint8\u0000\u0000\u000b*[607]int64\u0000\u0000\u000b*[67]uint64\u0000\u0000\u000b*[6]uintptr\u0000\u0000\u000b*[8][]uint8\u0000\u0000\u000b*[]*big.Int\u0000\u0000\u000b*[]*net.SRV\u0000\u0000\u000b*[]*url.URL\u0000\u0000\u000b*[][2]int32\u0000\u0000\u000b*[][8]uint8\u0000\u0000\u000b*[][]string\u0000\u0000\u000b*[][]uint32\u0000\u0000\u000b*[][]uint64\u0000\u0000\u000b*[]big.Word\u0000\u0000\u000b*[]net.Addr\u0000\u0000\u000b*[]xml.Attr\u0000\u0000\u000b*[]xml.Name\u0000\u0000\u000b*aes.gcmAsm\u0001\u0000\u000b*bidi.Class\u0000\u0000\u000b*chan error\u0000\u0000\u000b*cipher.cbc\u0000\u0000\u000b*cipher.ctr\u0000\u0000\u000b*cipher.gcm\u0000\u0000\u000b*complex128\u0000\u0000\u000b*cpu.option\u0001\u0000\u000b*flag.Value\u0000\u0000\u000b*fmt.buffer\u0000\u0000\u000b*func() int\u0000\u0000\u000b*func(bool)\u0000\u0000\u000b*hpack.node\u0000\u0000\u000b*json.field\u0001\u0000\u000b*log.Logger\u0000\u0000\u000b*md5.digest\u0001\u0000\u000b*net.Dialer\u0001\u0000\u000b*net.IPAddr\u0001\u0000\u000b*net.IPConn\u0001\u0000\u000b*net.IPMask\u0000\u0000\u000b*net.byPref\u0000\u0000\u000b*net.ipAttr\u0000\u0000\u000b*net.result\u0000\u0000\u000b*norm.input\u0000\u0000\u000b*os.dirInfo\u0000\u0000\u000b*os.rawConn\u0000\u0000\u000b*os.timeout\u0001\u0000\u000b*parse.Node\u0001\u0000\u000b*parse.Tree\u0000\u0000\u000b*parse.item\u0001\u0000\u000b*rc4.Cipher\u0000\u0000\u000b*regexp.job\u0001\u0000\u000b*sync.Mutex\u0000\u0000\u000b*sync.eface\u0000\u0000\u000b*sync.entry\u0001\u0000\u000b*time.Month\u0001\u0000\u000b*time.Timer\u0001\u0000\u000b*tls.Config\u0001\u0000\u000b*url.Values\u0001\u0000\u000bAddASN1Enum\u0001\u0000\u000bAddASN1NULL\u0001\u0000\u000bAuthMethods\u0001\u0000\u000bAverageCVSS\u0001\u0000\u000bCertificate\u0001\u0000\u000bCipherSuite\u0001\u0000\u000bConnectDone\u0001\u0000\u000bConstructed\u0001\u0000\u000bCryptBlocks\u0001\u0000\u000bCurrentTime\u0001\u0000\u000bCurveParams\u0001\u0000\u000bDefaultMask\u0001\u0000\u000bDescription\u0001\u0000\u000bDialContext\u0001\u0000\u000bDisplayName\u0001\u0000\u000bDurationVar\u0001\u0000\u000bEmitEnabled\u0001\u0000\u000bEncodeToken\u0001\u0000\u000bErrorDetail\u0001\u0000\u000bErrorString\u0001\u0000\u000bEscapedPath\u0001\u0000\u000bExtKeyUsage\u0001\u0000\u000bFieldByName\u0001\u0000\u000bHasPriority\u0001\u0000\u000bIPAddresses\u0001\u0000\u000bInputOffset\u0001\u0000\u000bInsertAfter\u0001\u0000\u000bIsMulticast\u0001\u0000\u000bIsTemporary\u0001\u0000\u000bLatinOffset\u0001\u0000\u000bLookupCNAME\u0001\u0000\u000bMarshalASN1\u0001\u0000\u000bMarshalJSON\u0001\u0000\u000bMarshalText\u0001\u0000\u000bMatchReader\u0001\u0000\u000bMatchString\u0001\u0000\u000bMoveToFront\u0001\u0000\u000bMultistream\u0001\u0000\u000bNanoseconds\u0001\u0000\u000bNextRawPart\u0001\u0000\u000bNormFloat64\u0001\u0000\u000bNumSettings\u0001\u0000\u000bOPTResource\u0001\u0000\u000bOverflowInt\u0001\u0000\u000bPTRResource\u0001\u0000\u000bPeekASN1Tag\u0001\u0000\u000bPrecomputed\u0001\u0000\u000bPseudoValue\u0001\u0000\u000bPutIdleConn\u0001\u0000\u000bRawFragment\u0001\u0000\u000bReadAnyASN1\u0001\u0000\u000bReadFromUDP\u0001\u0000\u000bReadMsgUnix\u0001\u0000\u000bSOAResource\u0001\u0000\u000bSRVResource\u0001\u0000\u000bSetBlocking\u0001\u0000\u000bSetDeadline\u0001\u0000\u000bSetEmitFunc\u0001\u0000\u000bSetMapIndex\u0001\u0000\u000bStreamEnded\u0001\u0000\u000bSubexpIndex\u0001\u0000\u000bSubexpNames\u0001\u0000\u000bSyscallConn\u0001\u0000\u000bTBSCertList\u0001\u0000\u000bTXTResource\u0001\u0000\u000bWithContext\u0001\u0000\u000bWithPadding\u0001\u0000\u000bWriteGoAway\u0001\u0000\u000bWriteHeader\u0001\u0000\u000bWriteMsgUDP\u0001\u0000\u000bWriteString\u0001\u0000\u000bWriteSubset\u0001\u0000\u000bWriteToUnix\u0000\u0000\u000bacquiretime\u0000\u0000\u000baddJacobian\u0000\u0000\u000badditionals\u0000\u0000\u000ballocManual\u0000\u0000\u000banalyseFile\u0000\u0000\u000bappendGroup\u0000\u0000\u000bappendSlice\u0000\u0000\u000bapplication\u0000\u0000\u000bauthorities\u0000\u0000\u000bbadCharSkip\u0000\u0000\u000bbodyRemains\u0000\u0000\u000bbuildChains\u0000\u0000\u000bbyNameValue\u0000\u0000\u000bbytesMarked\u0000\u0000\u000bbytesRemain\u0000\u0000\u000bcanceledErr\u0000\u0000\u000bcertificate\u0000\u0000\u000bcharinfoNFC\u0000\u0000\u000bcheckBucket\u0000\u0000\u000bcipherSuite\u0000\u0000\u000bclearMarked\u0000\u0000\u000bcloseIfIdle\u0000\u0000\u000bcloseLocked\u0000\u0000\u000bcloseNotify\u0000\u0000\u000bcompression\u0000\u0000\u000bcreatestack\u0000\u0000\u000bctrlNetwork\u0000\u0000\u000bcurrentPart\u0000\u0000\u000bdebugFramer\u0000\u0000\u000bdeferreturn\u0000\u0000\u000bdialConnFor\u0000\u0000\u000bdisposition\u0000\u0000\u000bearlySecret\u0000\u0000\u000becdheParams\u0000\u0000\u000belseControl\u0000\u0000\u000bemitEnabled\u0000\u0000\u000bensureSwept\u0000\u0000\u000berrorString\u0000\u0000\u000bevalCommand\u0000\u0000\u000bevalComplex\u0000\u0000\u000bevalInteger\u0000\u0000\u000bevictOldest\u0000\u0000\u000bexpandLabel\u0000\u0000\u000bexpectOneOf\u0000\u0000\u000bfindfunctab\u0000\u0000\u000bfinishBlock\u0000\u0000\u000bflushedWork\u0000\u0000\u000bfullUnswept\u0000\u0000\u000bgoAwayDebug\u0000\u0000\u000bgoLookupPTR\u0000\u0000\u000bh2transport\u0000\u0000\u000bhandshakeFn\u0000\u0000\u000bhasFunction\u0000\u0000\u000bhasNetHooks\u0000\u0000\u000bidleTimeout\u0000\u0000\u000bincludeDirs\u0000\u0000\u000bindirectkey\u0000\u0000\u000binsertFlush\u0000\u0000\u000binsertValue\u0000\u0000\u000bipAddresses\u0000\u0000\u000bipv4Enabled\u0000\u0000\u000bipv6Enabled\u0000\u0000\u000bisConnected\u0000\u0000\u000bisH2Upgrade\u0000\u0000\u000blastChecked\u0000\u0000\u000bloadSession\u0000\u0000\u000blookupCNAME\u0000\u0000\u000blookupGroup\u0000\u0000\u000bmarshalAttr\u0000\u0000\u000bmaxReadSize\u0000\u0000\u000bmaybeConcat\u0000\u0000\u000bminInputLen\u0000\u0000\u000bmultistream\u0000\u0000\u000bnameEscHTML\u0000\u0000\u000bnewPipeline\u0000\u0000\u000bnewSigstack\u0000\u0000\u000bnewTemplate\u0000\u0000\u000bnewVariable\u0000\u0000\u000bnewoverflow\u0000\u0000\u000bnext_sample\u0000\u0000\u000bnlargealloc\u0000\u0000\u000bnoldbuckets\u0000\u0000\u000boffsetEmbed\u0000\u0000\u000boldoverflow\u0000\u0000\u000bopenGeneric\u0000\u0000\u000bpacketsSent\u0000\u0000\u000bparseEscape\u0000\u0000\u000bparseRepeat\u0000\u0000\u000bpasswordSet\u0000\u0000\u000bpastHeaders\u0000\u0000\u000bpoolDequeue\u0000\u0000\u000bpopcntRange\u0000\u0000\u000bprecPresent\u0000\u0000\u000bpreemptStop\u0000\u0000\u000bprefixBytes\u0000\u0000\u000bprepareRead\u0000\u0000\u000bprocessData\u0000\u0000\u000bprocessPing\u0000\u0000\u000bproxyForURL\u0000\u0000\u000bpushElement\u0000\u0000\u000brUnlockSlow\u0000\u0000\u000braceprocctx\u0000\u0000\u000breadHuffman\u0000\u0000\u000breadTrailer\u0000\u0000\u000breaderCount\u0000\u0000\u000breleaseSema\u0000\u0000\u000breleasetime\u0000\u0000\u000breqCanceler\u0000\u0000\u000breturnSlice\u0000\u0000\u000bruleBuilder\u0004\u0000\u0007pushAll\ufffd,\u0000\u0000\u0000\u0000\u000bruntimehash\u0000\u0000\u000bsa_restorer\u0000\u0000\u000bsavedOffset\u0000\u0000\u000bscanComplex\u0000\u0000\u000bscanPercent\u0000\u0000\u000bscavengeAll\u0000\u0000\u000bscavengeOne\u0000\u0000\u000bsealGeneric\u0000\u0000\u000bsearchIndex\u0000\u0000\u000bsearchTable\u0000\u0000\u000bserverHello\u0000\u0000\u000bserverShare\u0000\u0000\u000bsetConnFlow\u0000\u0000\u000bsetDeadline\u0000\u0000\u000bsetFragment\u0000\u0000\u000bset_sigaddr\u0000\u0000\u000bset_sigcode\u0000\u0000\u000bsetoverflow\u0000\u0000\u000bshouldIndex\u0000\u0000\u000bshouldVisit\u0000\u0000\u000bspeciallock\u0000\u0000\u000bstackguard0\u0000\u0000\u000bstackguard1\u0000\u0000\u000bstartBucket\u0000\u0000\u000bstdoutOrErr\u0000\u0000\u000bstopReqBody\u0000\u0000\u000bstopTimerCh\u0000\u0000\u000bstoreLocked\u0000\u0000\u000bstringBytes\u0000\u0000\u000bsubexpNames\u0000\u0000\u000bsweepArenas\u0000\u0000\u000bsyntaxError\u0000\u0000\u000bsyscalltick\u0000\u0000\u000bsyscallwhen\u0004\u0000\u0007popVars\u0010\u0001\u0001\u0000\u0004\u0000\u0007recover\u0010\u0001\u0001\u0000\u0004\u0000\u0007newBool\u0010\u0001\u0001\u0000\u0004\u0000\u0007newElse\u0010\u0001\u0001\u0000\u0004\u0000\u0007newList\u0010\u0001\u0001\u0000\u0004\u0000\u0007backup2\u0010\u0001\u0001\u0000\u0004\u0000\u0007newText\u0010\u0001\u0001\u0000\u0004\u0000\u0007newWith\u0010\u0001\u0001\u0000\u0004\u0000\u0007operand\u0010\u0001\u0001\u0000\u0004\u0000\u0007backup3\u0010\u0001\u0001\u0000\u0004\u0000\u0007popVars\u0010\u0001\u0001\u0000\u0004\u0000\u0007recover\u0010\u0001\u0001\u0000\u0004\u0000\u0007backup2\u0010\u0001\u0001\u0000\u0004\u0000\u0007backup3\u0010\u0001\u0001\u0000\u0004\u0000\u0007command\u0010\u0001\u0001\u0000\u0004\u0000\u0007command\u0010\u0001\u0001\u0000\u0004\u0000\u0007newBool\u0010\u0001\u0001\u0000\u0004\u0000\u0007newElse\u0010\u0001\u0001\u0000\u0004\u0000\u0007newList\u0010\u0001\u0001\u0000\u0004\u0000\u0007newText\u0010\u0001\u0001\u0000\u0004\u0000\u0007newWith\u0010\u0001\u0001\u0000\u0004\u0000\u0007operand\u0010\u0001\u0001\u0000\u0000\u0000\u000btextsectmap\u0000\u0000\u000buncacheSpan\u0000\u0000\u000bunknownType\u0000\u0000\u000bvalueQuoted\u0000\u0000\u000bwaittraceev\u0000\u0000\u000bwaitunlockf\u0000\u0000\u000bwholeRegexp\u0000\u0000\u000bwithControl\u0000\u0000\u000bwriteHeader\u0000\u0000\u000bwriteIndent\u0000\u0000\u000bwriteKeyLog\u0000\u0000\u000bwriteRecord\u0000\u0000\u000bwriteString\u0000\u0000\u000bwriteSubset\u0000\u0000\u000bwriteUint16\u0000\u0000\u000bwriteUint32\u0000\u0000\u000bwriteUnlock\u0000\u0000\u0000\u0000\u000ccrypto/ecdsa\u0000\u0000\u0000\u000cencoding/pem\u0000\u0000\u0000\u000cencoding/xml\u0000\u0000\u0000\u000cinternal/cpu\u0000\u0000\u000c**parse.Tree\u0000\u0000\u000c**sync.entry\u0000\u0000\u000c*[1024]uint8\u0000\u0000\u000c*[16]big.nat\u0000\u0000\u000c*[16]uintptr\u0000\u0000\u000c*[1]net.Addr\u0000\u0000\u000c*[256]uint32\u0000\u0000\u000c*[256]uint64\u0000\u0000\u000c*[32]uintptr\u0000\u0000\u000c*[512]uint32\u0000\u0000\u000c*[67]uintptr\u0000\u0000\u000c*[8][2]int32\u0000\u0000\u000c*[8][8]uint8\u0000\u0000\u000c*[8][]string\u0000\u0000\u000c*[][32]uint8\u0000\u0000\u000c*[][][]uint8\u0000\u0000\u000c*[]io.Reader\u0000\u0000\u000c*[]struct {}\u0000\u0000\u000c*[]time.zone\u0000\u0000\u000c*[]tls.alert\u0000\u0000\u000c*big.divisor\u0001\u0000\u000c*cipher.AEAD\u0001\u0000\u000c*crc32.Table\u0001\u0000\u000c*crypto.Hash\u0001\u0000\u000c*engine.Info\u0001\u0000\u000c*engine.Rule\u0000\u0000\u000c*flate.hcode\u0001\u0000\u000c*fmt.Scanner\u0000\u0000\u000c*func() bool\u0000\u0000\u000c*func() uint\u0000\u0000\u000c*func(error)\u0000\u0000\u000c*func(int64)\u0000\u0000\u000c*func(uint8)\u0001\u0000\u000c*gzip.Header\u0001\u0000\u000c*gzip.Reader\u0001\u0000\u000c*http.Client\u0001\u0000\u000c*http.Cookie\u0001\u0000\u000c*http.Header\u0000\u0000\u000c*http.noBody\u0001\u0000\u000c*insider.NPM\u0001\u0000\u000c*insider.POM\u0001\u0000\u000c*io.ReaderAt\u0001\u0000\u000c*io.WriterTo\u0001\u0000\u000c*json.Number\u0001\u0000\u000c*net.OpError\u0001\u0000\u000c*net.TCPAddr\u0001\u0000\u000c*net.TCPConn\u0001\u0000\u000c*net.UDPAddr\u0001\u0000\u000c*net.UDPConn\u0000\u0000\u000c*net.nssConf\u0000\u0000\u000c*net.rawConn\u0000\u0000\u000c*net.timeout\u0000\u0000\u000c*norm.qcInfo\u0001\u0000\u000c*os.FileInfo\u0001\u0000\u000c*os.FileMode\u0000\u0000\u000c*os.fileStat\u0000\u0000\u000c*parse.lexer\u0001\u0000\u000c*rand.Source\u0001\u0000\u000c*report.Base\u0000\u0000\u000c*runtime.mOS\u0000\u0000\u000c*sha1.digest\u0001\u0000\u000c*sync.Locker\u0000\u0000\u000c*sync.noCopy\u0001\u0000\u000c*syntax.Inst\u0001\u0000\u000c*syntax.Prog\u0001\u0000\u000c*sys.Uintreg\u0001\u0000\u000c*template.JS\u0000\u0000\u000c*time.dataIO\u0001\u0000\u000c*tls.CurveID\u0000\u0000\u000c*tls.cbcMode\u0001\u0000\u000c*xml.Comment\u0001\u0000\u000c*xml.Decoder\u0001\u0000\u000c*xml.Encoder\u0000\u0000\u000c*xml.printer\u0001\u0000\u000cAAAAResource\u0001\u0000\u000cAddASN1Int64\u0001\u0000\u000cAddParseTree\u0001\u0000\u000cAllQuestions\u0001\u0000\u000cAnswerHeader\u0001\u0000\u000cAppendFormat\u0001\u0000\u000cAppendString\u0001\u0000\u000cAssignableTo\u0001\u0000\u000cAuthenticate\u0001\u0000\u000cBytesOrPanic\u0001\u0000\u000cCanInterface\u0001\u0000\u000cCertificates\u0001\u0000\u000cCipherSuites\u0001\u0000\u000cCombinedMult\u0001\u0000\u000cConnectStart\u0001\u0000\u000cDecodeString\u0001\u0000\u000cDefaultSpace\u0001\u0000\u000cDialWithConn\u0001\u0000\u000cErrorContext\u0001\u0000\u000cEscapeString\u0001\u0000\u000cExpandString\u0001\u0000\u000cFieldByIndex\u0001\u0000\u000cFindAllIndex\u0001\u0000\u000cFindSubmatch\u0001\u0000\u000cFlushHeaders\u0001\u0000\u000cHardwareAddr\u0001\u0000\u000cHeadersEnded\u0001\u0000\u000cInsertBefore\u0001\u0000\u000cKeyLogWriter\u0001\u0000\u000cLastBoundary\u0001\u0000\u000cLastStreamID\u0001\u0000\u000cLookupIPAddr\u0001\u0000\u000cMatchRunePos\u0001\u0000\u000cMaxIdleConns\u0001\u0000\u000cMethodByName\u0001\u0000\u000cMicroseconds\u0001\u0000\u000cMilliseconds\u0001\u0000\u000cNextBoundary\u0001\u0000\u000cOCSPResponse\u0001\u0000\u000cOrganization\u0001\u0000\u000cOverflowUint\u0001\u0000\u000cPhysicalPath\u0001\u0000\u000cProtoAtLeast\u0001\u0000\u000cPseudoFields\u0001\u0000\u000cPushBackList\u0001\u0000\u000cReadASN1Enum\u0001\u0000\u000cReadCodeLine\u0001\u0000\u000cReadDotBytes\u0001\u0000\u000cReadDotLines\u0001\u0000\u000cReadFromUnix\u0001\u0000\u000cReadResponse\u0001\u0000\u000cReaddirnames\u0001\u0000\u000cRecordHeader\u0001\u0000\u000cRoundTripOpt\u0001\u0000\u000cRuntimeError\u0001\u0000\u000cScopeIndexes\u0001\u0000\u000cSerialNumber\u0001\u0000\u000cSetBasicAuth\u0001\u0000\u000cSetKeepAlive\u0001\u0000\u000cSkipQuestion\u0001\u0000\u000cStartAnswers\u0001\u0000\u000cStrictErrors\u0001\u0000\u000cSubjectKeyId\u0001\u0000\u000cTLSNextProto\u0001\u0000\u000cUncompressed\u0001\u0000\u000cUnmarshalXML\u0001\u0000\u000cWriteHeaders\u0001\u0000\u000cWriteMsgUnix\u0001\u0000\u000cWroteHeaders\u0001\u0000\u000cWroteRequest\u0001\u0000\u000cXORKeyStream\u0000\u0000\u000caddConnCalls\u0000\u0000\u000cadjustTimers\u0000\u0000\u000caesCipherAsm\u0000\u0000\u000callocToCache\u0000\u0000\u000calpnProtocol\u0000\u0000\u000canalyzePlist\u0000\u0000\u000catRightDelim\u0000\u0000\u000catTerminator\u0000\u0000\u000catomicstatus\u0000\u0000\u000cblockControl\u0000\u0000\u000ccancelStream\u0000\u0000\u000ccertificates\u0000\u0000\u000ccharinfoNFKC\u0000\u0000\u000ccheckAdvance\u0000\u0000\u000ccheckPseudos\u0000\u0000\u000ccipherSuites\u0000\u0000\u000cclientRandom\u0000\u0000\u000cconnPoolOnce\u0000\u0000\u000cconnsPerHost\u0000\u0000\u000cconservative\u0000\u0000\u000cconvertFloat\u0000\u0000\u000cconvertWords\u0000\u0000\u000ccopyTrailers\u0000\u0000\u000ccounterCrypt\u0004\u0000\u0008lockSlow\ufffd\u0007\u0000\u0000\u0000\u0000\u000ccurrentChain\u0000\u0000\u000cdashBoundary\u0000\u0000\u000cdecompressor\u0000\u0000\u000cdefaultUsage\u0000\u0000\u000cdefaultValue\u0000\u0000\u000cdeferpoolbuf\u0000\u0000\u000cdequeueSudoG\u0000\u0000\u000cderiveSecret\u0000\u0000\u000cdialParallel\u0000\u0000\u000cdivRecursive\u0000\u0000\u000cdoEarlyClose\u0000\u0000\u000cearlyCloseFn\u0000\u0000\u000ceditTextNode\u0000\u0000\u000cerrorContext\u0000\u0000\u000cescapeAction\u0000\u0000\u000cescapeBranch\u0000\u0000\u000cevalFunction\u0000\u0000\u000cevalPipeline\u0000\u0000\u000cextraHeaders\u0000\u0000\u000cfinishedHash\u0000\u0000\u000cformatHeader\u0000\u0000\u000cgcAssistTime\u0000\u0000\u000cgetDataFrame\u0000\u0000\u000cgoLookupHost\u0000\u0000\u000cgoidcacheend\u0000\u0000\u000chandshakeErr\u0000\u0000\u000chuffmanBlock\u0000\u0000\u000cidleConnWait\u0000\u0000\u000cindirectelem\u0000\u0000\u000cinitConnPool\u0000\u0000\u000cinsertSingle\u0000\u0000\u000cinsertUnsafe\u0000\u0000\u000cisReplayable\u0000\u0000\u000clastBoundary\u0000\u0000\u000clastRuneSize\u0000\u0000\u000clinktimehash\u0000\u0000\u000clistenStream\u0000\u0000\u000cliteralStore\u0000\u0000\u000clocksHeldLen\u0000\u0000\u000clookupIPAddr\u0000\u0000\u000clookupValues\u0000\u0000\u000cmarshalValue\u0000\u0000\u000cmasterSecret\u0000\u0000\u000cmaxEarlyData\u0000\u0000\u000cmaxFrameSize\u0000\u0000\u000cmaxSizeLimit\u0000\u0000\u000cmaxTokenSize\u0000\u0000\u000cmaxWriteSize\u0000\u0000\u000cmodulehashes\u0000\u0000\u000cmultiSegment\u0000\u0000\u000cmustReadRune\u0000\u0000\u000cnewTLSConfig\u0000\u0000\u000cnextBoundary\u0000\u0000\u000cnextNonSpace\u0000\u0000\u000cnextOverflow\u0000\u0000\u000cnextStreamID\u0000\u0000\u000cnotAFunction\u0000\u0000\u000cocspResponse\u0000\u0000\u000cocspStapling\u0000\u0000\u000coldCacheSpan\u0000\u0000\u000conePassRunes\u0000\u0000\u000cpageSpecials\u0000\u0000\u000cpaniconfault\u0000\u0000\u000cparseControl\u0000\u0000\u000cpartialSwept\u0000\u0000\u000cpastTrailers\u0000\u0000\u000cpeekNonSpace\u0000\u0000\u000cpreparePanic\u0000\u0000\u000cprepareWrite\u0000\u0000\u000cproductTable\u0000\u0000\u000cprotoAtLeast\u0000\u0000\u000cproxyAddress\u0000\u0000\u000cproxyNetwork\u0000\u0000\u000cqueueForDial\u0000\u0000\u000cquotedString\u0000\u0000\u000crangeControl\u0000\u0000\u000creadCodeLine\u0000\u0000\u000creadFinished\u0000\u0000\u000creadResponse\u0000\u0000\u000creadUnsigned\u0000\u0000\u000creaddirnames\u0000\u0000\u000creclaimChunk\u0000\u0000\u000creclaimIndex\u0000\u0000\u000creflectValue\u0000\u0000\u000creflexivekey\u0000\u0000\u000cremoveOldest\u0000\u0000\u000creplacements\u0000\u0000\u000cresolverFunc\u0000\u0000\u000csameSizeGrow\u0000\u0000\u000cscavengeGoal\u0000\u0000\u000csendFinished\u0000\u0000\u000csentDummyCCS\u0000\u0000\u000cserverOffset\u0000\u0000\u000cserverRandom\u0000\u0000\u000cskipResource\u0000\u0000\u000cstartedWrite\u0000\u0000\u000cstrictErrors\u0000\u0000\u000csysexitticks\u0000\u0000\u000csystemVerify\u0000\u0000\u000ctargetScheme\u0004\u0000\u0008pipeline\u0010\u0001\u0001\u0000\u0004\u0000\u0008itemList\u0010\u0001\u0001\u0000\u0004\u0000\u0008newChain\u0010\u0001\u0001\u0000\u0004\u0000\u0008newField\u0010\u0001\u0001\u0000\u0004\u0000\u0008newRange\u0010\u0001\u0001\u0000\u0004\u0000\u0008pipeline\u0010\u0001\u0001\u0000\u0004\u0000\u0008itemList\u0010\u0001\u0001\u0000\u0004\u0000\u0008newChain\u0010\u0001\u0001\u0000\u0004\u0000\u0008newField\u0010\u0001\u0001\u0000\u0004\u0000\u0008newRange\u0010\u0001\u0001\u0000\u0000\u0000\u000ctextOrAction\u0000\u0000\u000ctimerRaceCtx\u0000\u0000\u000ctraceHeaders\u0000\u0000\u000ctryBacktrack\u0000\u0000\u000ctryWriteCopy\u0000\u0000\u000cupdateBlocks\u0000\u0000\u000cvalidateType\u0000\u0000\u000cwaitCanceled\u0000\u0000\u000cwalkIfOrWith\u0000\u0000\u000cwalkTemplate\u0000\u0000\u000cwriteBuffers\u0000\u0000\u000cwriteHeaders\u0000\u0000\u000cwritePadding\u0000\u0000\u000cwroteRequest\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0008\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000h\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u00000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000l\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u000c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0008\u000c!\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0002\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0004\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0006\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000(\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0010\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u00000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\ufffd\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0008\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0014\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0018\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u00008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000H\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000P\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\u0000X\u0001\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000+@\u0000\u0000\u0000\u0000\u0000`\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000compress/gzip\u0000\u0000crypto/cipher\u0000\u0000crypto/sha256\u0000\u0000crypto/sha512\u0000\u0000encoding/asn1\u0000\u0000encoding/json\u0000\u0000html/template\u0000\u0000internal/poll\u0000\u0000net/textproto\u0000\u0000path/filepath\u0000\u0000regexp/syntax\u0000\u0000text/template\u0000\u0000*[1]time.zone\u0000\u0000*[252]uintptr\u0000\u0000*[253]uintptr\u0000\u0000*[256][]uint8\u0000\u0000*[26][]uint64\u0000\u0000*[2]io.Reader\u0000\u0000*[512]uintptr\u0000\u0000*[8]struct {}\u0000\u0000*[8]tls.alert\u0000\u0000*[]*flag.Flag\u0000\u0000*[]*net.IPNet\u0000\u0000*[]bidi.Class\u0000\u0000*[]cpu.option\u0000\u0000*[]json.field\u0000\u0000*[]net.IPAddr\u0000\u0000*[]net.ipAttr\u0000\u0000*[]parse.Node\u0000\u0000*[]parse.item\u0000\u0000*[]regexp.job\u0000\u0000*[]sync.eface\u0000\u0000*asn1.encoder\u0001\u0000*atomic.Value\u0001\u0000*bufio.Reader\u0001\u0000*bufio.Writer\u0001\u0000*bytes.Buffer\u0001\u0000*bytes.Reader\u0000\u0000*bytes.readOp\u0000\u0000*chan\u003c- error\u0001\u0000*cipher.Block\u0001\u0000*engine.Issue\u0001\u0000*flag.FlagSet\u0001\u0000*flate.Reader\u0000\u0000*flate.byFreq\u0001\u0000*fmt.Stringer\u0000\u0000*fmt.fmtFlags\u0000\u0000*fmt.readRune\u0000\u0000*func() error\u0000\u0000*func() int32\u0000\u0000*func() int64\u0000\u0000*func() uint8\u0000\u0000*func(func())\u0000\u0000*func(string)\u0000\u0000*func(uint16)\u0000\u0000*func(uint32)\u0000\u0000*func(uint64)\u0001\u0000*http.Request\u0000\u0000*http.connLRU\u0000\u0000*interface {}\u0000\u0000*io.eofReader\u0000\u0000*json.byIndex\u0000\u0000*json.encOpts\u0000\u0000*json.scanner\u0001\u0000*list.Element\u0001\u0000*net.DNSError\u0001\u0000*net.Resolver\u0001\u0000*net.UnixAddr\u0001\u0000*net.UnixConn\u0000\u0000*net.addrList\u0000\u0000*net.sockaddr\u0001\u0000*os.LinkError\u0001\u0000*os.PathError\u0001\u0000*parse.IfNode\u0000\u0000*poll.fdMutex\u0001\u0000*reflect.Kind\u0001\u0000*reflect.Type\u0000\u0000*reflect.flag\u0000\u0000*reflect.name\u0000\u0000*regexp.entry\u0000\u0000*regexp.input\u0000\u0000*regexp.queue\u0001\u0000*rsa.CRTValue\u0001\u0000*runtime.Func\u0000\u0000*runtime.bmap\u0000\u0000*runtime.hmap\u0000\u0000*runtime.itab\u0000\u0000*runtime.name\u0000\u0000*runtime.note\u0000\u0000*sort.reverse\u0000\u0000*strings.span\u0001\u0000*sync.RWMutex\u0000\u0000*sync.rlocker\u0001\u0000*syntax.Error\u0001\u0000*syntax.Flags\u0001\u0000*template.CSS\u0001\u0000*template.URL\u0001\u0000*time.Weekday\u0000\u0000*tls.halfConn\u0000\u0000*tls.keyShare\u0000\u0000*tls.tls10MAC\u0001\u0000*url.Userinfo\u0001\u0000*xml.CharData\u0001\u0000*xml.ProcInst\u0000\u0000*xml.typeInfo\u0001\u0000AcceptableCAs\u0001\u0000AddASN1BigInt\u0001\u0000AddASN1Uint64\u0001\u0000Authoritative\u0001\u0000BlockFragment\u0001\u0000BoundaryAfter\u0001\u0000CNAMEResource\u0001\u0000CancelRequest\u0001\u0000CharsetReader\u0001\u0000CheckRedirect\u0001\u0000ContentLength\u0001\u0000ConvertibleTo\u0001\u0000DNSSECAllowed\u0001\u0000DecodeElement\u0001\u0000Decomposition\u0001\u0000EncodeElement\u0001\u0000ErrorHandling\u0001\u0000ExtendedRCode\u0001\u0000FallbackDelay\u0001\u0000FindAllString\u0001\u0000FirstBoundary\u0001\u0000GetClientConn\u0001\u0000HasDuplicates\u0003\u0000\u0002ID\u0000\tjson:\"id\"\u0001\u0000InterfaceData\u0001\u0000Intermediates\u0001\u0000IsUnspecified\u0001\u0000LiteralPrefix\u0001\u0000MarshalBinary\u0001\u0000MultipartForm\u0001\u0000NewClientConn\u0001\u0000OverflowFloat\u0001\u0000PostFormValue\u0001\u0000PrintDefaults\u0001\u0000ProbablyPrime\u0001\u0000PushFrontList\u0001\u0000ReadASN1Bytes\u0001\u0000ReadLineBytes\u0001\u0000Recomendation\u0001\u0000RegisteredFor\u0001\u0000RegularFields\u0001\u0000Renegotiation\u0001\u0000RequestMethod\u0001\u0000SectionReader\u0001\u0000SecurityScore\u0001\u0000SessionKeyLen\u0001\u0000SetControllen\u0001\u0000SetReadBuffer\u0001\u0000SetsockoptInt\u0001\u0000SkipAuthority\u0001\u0000StreetAddress\u0001\u0000ToRDNSequence\u0001\u0000UnmarshalJSON\u0001\u0000UnmarshalText\u0001\u0000WritePriority\u0001\u0000WriteRawFrame\u0001\u0000WriteSettings\u0001\u0000ZeroReadIsEOF\u0000\u0000addASN1Signed\u0000\u0000addBase128Int\u0000\u0000addConnLocked\u0000\u0000addGzipHeader\u0000\u0000alpnProtocols\u0000\u0000analyzeSource\u0000\u0000bodyReadError\u0000\u0000cancelRequest\u0000\u0000cgoCallersUse\u0000\u0000checkCanParse\u0000\u0000checkPipeline\u0000\u0000checkRedirect\u0000\u0000checknonempty\u0000\u0000closeWhenIdle\u0000\u0000combineHangul\u0000\u0000compatibility\u0000\u0000complexTokens\u0000\u0000computeOutCtx\u0000\u0000connPoolOrDef\u0000\u0000contentLength\u0000\u0000convertNumber\u0000\u0000convertString\u0000\u0000customDialTLS\u0000\u0000decodeQuantum\u0000\u0000decryptTicket\u0000\u0000deletedTimers\u0000\u0000deriveCounter\u0000\u0000didEarlyClose\u0000\u0000encodeHeaders\u0004\u0000\treadSlice`\u0017\u0000\u0000\u0000\u0000encryptTicket\u0000\u0000errorHandling\u0000\u0000establishKeys\u0000\u0000evalChainNode\u0000\u0000evalFieldNode\u0000\u0000expNNWindowed\u0000\u0000fallbackDelay\u0000\u0000firstBoundary\u0000\u0000firstZoneUsed\u0000\u0000gcAssistBytes\u0000\u0000getClientConn\u0000\u0000goLookupCNAME\u0000\u0000handleMethods\u0000\u0000headerFragBuf\u0000\u0000idealConstant\u0000\u0000incrnoverflow\u0000\u0000insertOrdered\u0000\u0000leadingRegexp\u0000\u0000leadingString\u0000\u0000marshalSimple\u0000\u0000marshalStruct\u0000\u0000maxTableIndex\u0000\u0000missingMethod\u0000\u0000mutualVersion\u0000\u0000needkeyupdate\u0000\u0000newClientConn\u0000\u0000nextFreeIndex\u0000\u0000nextProtoOnce\u0000\u0000oldbucketmask\u0000\u0000onIdleTimeout\u0000\u0000parkingOnChan\u0000\u0000pendingIsASN1\u0000\u0000pendingLenLen\u0000\u0000popParseState\u0000\u0000preemptShrink\u0000\u0000processGoAway\u0000\u0000pskIdentities\u0000\u0000readASN1Int64\u0000\u0000readFromUntil\u0000\u0000readHandshake\u0000\u0000readLineSlice\u0000\u0000readMetaFrame\u0000\u0000reclaimCredit\u0000\u0000reportZombies\u0000\u0000reqBodyClosed\u0000\u0000reqDidTimeout\u0000\u0000requestedGzip\u0000\u0000requiresHTTP1\u0000\u0000rescanLiteral\u0000\u0000selectedGroup\u0000\u0000sessionTicket\u0000\u0000signalPending\u0000\u0000singleRequest\u0000\u0000startingtrace\u0000\u0000supportsCurve\u0004\u0000\tstopParse\u0010\u0001\u0001\u0000\u0004\u0000\tifControl\u0010\u0001\u0001\u0000\u0004\u0000\tnewAction\u0010\u0001\u0001\u0000\u0004\u0000\tnewNumber\u0010\u0001\u0001\u0000\u0004\u0000\tnewString\u0010\u0001\u0001\u0000\u0004\u0000\tstopParse\u0010\u0001\u0001\u0000\u0004\u0000\tifControl\u0010\u0001\u0001\u0000\u0004\u0000\tnewAction\u0010\u0001\u0001\u0000\u0004\u0000\tnewNumber\u0010\u0001\u0001\u0000\u0004\u0000\tnewString\u0010\u0001\u0001\u0000\u0000\u0000textNodeEdits\u0000\u0000toIosReporter\u0000\u0000tooIdleLocked\u0000\u0000trafficSecret\u0000\u0000tryAllocMSpan\u0000\u0000unmarshalAttr\u0000\u0000unmarshalPath\u0000\u0000updateBinders\u0000\u0000waittraceskip\u0000\u0000writeLoopDone\u0000\u0000\u000ecompress/flate\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000econtainer/list\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000ecrypto/ed25519\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000emime/multipart\u0000\u0000\u000e**http.Request\u0000\u0000\u000e*[1]json.field\u0000\u0000\u000e*[1]net.IPAddr\u0000\u0000\u000e*[1]parse.Node\u0000\u0000\u000e*[3]parse.item\u0000\u0000\u000e*[8]*flag.Flag\u0000\u0000\u000e*[8]bidi.Class\u0000\u0000\u000e*[]*hpack.node\u0000\u0000\u000e*[]*parse.Tree\u0000\u0000\u000e*[]*sync.entry\u0000\u0000\u000e*[][256]uint64\u0000\u0000\u000e*[]crc32.Table\u0000\u0000\u000e*[]crypto.Hash\u0000\u0000\u000e*[]engine.Rule\u0000\u0000\u000e*[]flate.hcode\u0000\u0000\u000e*[]func(error)\u0000\u0000\u000e*[]os.FileInfo\u0000\u0000\u000e*[]syntax.Inst\u0000\u0000\u000e*[]tls.CurveID\u0000\u0000\u000e*aes.aesCipher\u0001\u0000\u000e*asn1.RawValue\u0001\u0000\u000e*bufio.Scanner\u0001\u0000\u000e*cipher.Stream\u0001\u0000\u000e*crypto.Signer\u0000\u0000\u000e*des.desCipher\u0001\u0000\u000e*dsa.PublicKey\u0001\u0000\u000e*engine.Engine\u0001\u0000\u000e*engine.Result\u0000\u0000\u000e*flag.boolFlag\u0000\u0000\u000e*flag.intValue\u0001\u0000\u000e*fmt.Formatter\u0001\u0000\u000e*fmt.ScanState\u0000\u0000\u000e*fmt.scanError\u0000\u0000\u000e*fmt.wrapError\u0000\u0000\u000e*func() net.IP\u0000\u0000\u000e*func() string\u0000\u0000\u000e*func() uint32\u0000\u0000\u000e*func() uint64\u0000\u0000\u000e*func([]uint8)\u0000\u0000\u000e*func(float64)\u0000\u0000\u000e*func(int) int\u0000\u0000\u000e*func(uintptr)\u0001\u0000\u000e*hpack.Decoder\u0001\u0000\u000e*hpack.Encoder\u0001\u0000\u000e*http.Response\u0001\u0000\u000e*http.SameSite\u0000\u0000\u000e*http.canceler\u0000\u0000\u000e*http.wantConn\u0001\u0000\u000e*io.ByteReader\u0001\u0000\u000e*io.ByteWriter\u0001\u0000\u000e*io.ReadCloser\u0001\u0000\u000e*io.ReadWriter\u0001\u0000\u000e*io.ReaderFrom\u0001\u0000\u000e*io.RuneReader\u0001\u0000\u000e*net.AddrError\u0001\u0000\u000e*net.Interface\u0000\u0000\u000e*net.byRFC6724\u0000\u0000\u000e*net.dnsConfig\u0000\u0000\u000e*net.nssSource\u0000\u0000\u000e*net.sysDialer\u0000\u0000\u000e*net.temporary\u0000\u0000\u000e*norm.formInfo\u0000\u0000\u000e*norm.iterFunc\u0000\u0000\u000e*os.onlyWriter\u0001\u0000\u000e*parse.DotNode\u0001\u0000\u000e*parse.NilNode\u0000\u0000\u000e*parse.endNode\u0000\u0000\u000e*poll.pollDesc\u0001\u0000\u000e*rand.Source64\u0001\u0000\u000e*reflect.Value\u0000\u0000\u000e*reflect.rtype\u0000\u0000\u000e*reflect.tflag\u0000\u0000\u000e*reflect.visit\u0001\u0000\u000e*regexp.Regexp\u0000\u0000\u000e*regexp.inputs\u0000\u0000\u000e*regexp.thread\u0001\u0000\u000e*report.Report\u0001\u0000\u000e*report.Result\u0001\u0000\u000e*rsa.PublicKey\u0001\u0000\u000e*runtime.Error\u0001\u0000\u000e*runtime.Frame\u0000\u0000\u000e*runtime._func\u0000\u0000\u000e*runtime._type\u0000\u0000\u000e*runtime.eface\u0000\u0000\u000e*runtime.gList\u0000\u0000\u000e*runtime.gobuf\u0000\u0000\u000e*runtime.hchan\u0000\u0000\u000e*runtime.hiter\u0000\u0000\u000e*runtime.mheap\u0000\u0000\u000e*runtime.mlink\u0000\u0000\u000e*runtime.mspan\u0000\u0000\u000e*runtime.mutex\u0000\u0000\u000e*runtime.scase\u0000\u0000\u000e*runtime.stack\u0000\u0000\u000e*runtime.sudog\u0000\u0000\u000e*runtime.tflag\u0000\u0000\u000e*runtime.timer\u0000\u0000\u000e*runtime.waitq\u0000\u0000\u000e*runtime.wbBuf\u0000\u0000\u000e*sha256.digest\u0000\u0000\u000e*sha512.digest\u0000\u0000\u000e*sync.readOnly\u0001\u0000\u000e*syntax.InstOp\u0001\u0000\u000e*syntax.Regexp\u0000\u0000\u000e*syntax.parser\u0000\u0000\u000e*syntax.ranges\u0001\u0000\u000e*syscall.Errno\u0001\u0000\u000e*syscall.Iovec\u0001\u0000\u000e*template.HTML\u0000\u0000\u000e*template.attr\u0001\u0000\u000e*time.Duration\u0001\u0000\u000e*time.Location\u0000\u0000\u000e*tls.ticketKey\u0001\u0000\u000e*x509.CertPool\u0001\u0000\u000e*x509.KeyUsage\u0000\u0000\u000e*x509.validity\u0001\u0000\u000e*xml.Directive\u0001\u0000\u000e*xml.Marshaler\u0000\u0000\u000e*xml.fieldInfo\u0001\u0000\u000eAddASN1Boolean\u0001\u0000\u000eAllAdditionals\u0001\u0000\u000eAllAuthorities\u0001\u0000\u000eAuditLibraries\u0001\u0000\u000eAuthorityKeyId\u0001\u0000\u000eBoundaryBefore\u0001\u0000\u000eBreakWithError\u0001\u0000\u000eCheckSignature\u0001\u0000\u000eCloseWithError\u0001\u0000\u000eDialTLSContext\u0001\u0000\u000eEmailAddresses\u0001\u0000\u000eEncodeToString\u0001\u0000\u000eForeachSetting\u0001\u0000\u000eForgetUnshared\u0001\u0000\u000eGetCertificate\u0001\u0000\u000eGot100Continue\u0001\u0000\u000eGot1xxResponse\u0001\u0000\u000eIsNormalString\u0001\u0000\u000eMarshalXMLAttr\u0001\u0000\u000eMaxPathLenZero\u0001\u0000\u000eMulticastAddrs\u0001\u0000\u000eNewlineIndexes\u0001\u0000\u000eOnlyCachedConn\u0001\u0000\u000eReadBufferSize\u0001\u0000\u000eReadMIMEHeader\u0001\u0000\u000eReplaceAllFunc\u0001\u0000\u000eResponseToHEAD\u0001\u0000\u000eRevocationTime\u0001\u0000\u000eScalarBaseMult\u0001\u0000\u000eSetEmitEnabled\u0001\u0000\u000eSetReuseFrames\u0001\u0000\u000eSetWriteBuffer\u0001\u0000\u000eSetsockoptByte\u0001\u0000\u000eSignatureValue\u0001\u0000\u000eSkipAdditional\u0001\u0000\u000eSkipAllAnswers\u0001\u0000\u000eStartQuestions\u0001\u0000\u000eTBSCertificate\u0001\u0000\u000eVerifiedChains\u0001\u0000\u000eVerifyHostname\u0001\u0000\u000eWriteRSTStream\u0000\u0000\u000eadditionalData\u0000\u0000\u000eallocNeedsZero\u0000\u0000\u000eallowedMaxSize\u0000\u0000\u000earenaHintAlloc\u0000\u0000\u000earrayInterface\u0000\u0000\u000easyncSafePoint\u0000\u0000\u000ebodyIsWritable\u0000\u0000\u000ebySubjectKeyId\u0000\u0000\u000ecanCheckPrefix\u0000\u0000\u000eclientFinished\u0000\u0000\u000eclientProtocol\u0000\u0000\u000ecloseNotifyErr\u0000\u0000\u000ecloseWithError\u0000\u0000\u000econnsPerHostMu\u0000\u0000\u000ecreateOverflow\u0004\u0000",
+   "column": 5861,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (4449:5861)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 4531,
+   "class": "insider (4531:927)",
+   "vul_id": "a429656c6f0a944041472b3a795bebbc",
+   "method": "\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000t-\u0000\u0000\ufffdi\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000.\ufffd1\ufffd\u000f\u0008\u0008\u000b\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000~-\u0000\u0000\u0000j\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000_B\u003ef\u000f\u0001\u0001\u0008\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000n \u0000\u0000@j\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffdJ\ufffd\u000f\u0008\u0008\u000c\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\ufffd\u003c\u0000\u0000\ufffdj\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\\\u001b\u000f\u0008\u0008:\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u0000\u0000\ufffdk\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u000c5A\u000f\u0001\u0001\u0008\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000(\u0004\u0001\u0000\ufffdl\u0002\u0000\ufffd\ufffd\u0001\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u00199\u000f\u0001\u0001\u0008\ufffd\u0015\ufffd\u0000\u0000\u0000\u0000\u0000\u0010\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000+\ufffd\u0000\u0000\ufffdn\u0002\u0000\ufffd\ufffd\u0001\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u003e*func(dnsmessage.ResourceHeader, dnsmessage.OPTResource) error\u0000\u0000\u003e*func(dnsmessage.ResourceHeader, dnsmessage.PTRResource) error\u0000\u0000\u003e*func(dnsmessage.ResourceHeader, dnsmessage.SOAResource) error\u0000\u0000\u003e*func(dnsmessage.ResourceHeader, dnsmessage.SRVResource) error\u0000\u0000\u003e*func(dnsmessage.ResourceHeader, dnsmessage.TXTResource) error\u0000\u0000\u003e*struct { F uintptr; repl func([]uint8) []uint8; src []uint8 }\u0000\u0000\u003e*struct { F uintptr; wg *sync.WaitGroup; f *json.encoderFunc }\u0000\u0000?*func(dnsmessage.ResourceHeader, dnsmessage.AAAAResource) error\u0000\u0000?*struct { F uintptr; fd *poll.FD; p []uint8; nn *int; max int }\u0000\u0000?*struct { F uintptr; prevDefer *runtime._defer; gp *runtime.g }\u0000\u0000?*struct { F uintptr; t *template.Template; c template.context }\u0000\u0000@*func(*big.Int, *big.Int, []uint8, []uint8) (*big.Int, *big.Int)\u0000\u0000@*func([]uint8, []uint8) (int, int, int, syscall.Sockaddr, error)\u0000\u0000@*func(dnsmessage.ResourceHeader, dnsmessage.CNAMEResource) error\u0000\u0000@*func(io.Reader, []uint8, crypto.DecrypterOpts) ([]uint8, error)\u0000\u0000@*struct { F uintptr; ok *bool; oldp *runtime.p; _g_ *runtime.g }\u0000\u0000A*func(context.Context, ...engine.Language) ([]engine.Rule, error)\u0000\u0000A*func(context.Context, io.ReadWriter, http.socksAuthMethod) error\u0000\u0000A*struct { F uintptr; re *regexp.Regexp; repl string; src string }\u0000\u0000A*struct { F uintptr; scases []runtime.scase; lockorder []uint16 }\u0000\u0000B*func(*big.Int, *big.Int, *big.Int, *big.Int) (*big.Int, *big.Int)\u0000\u0000B*func(context.Context, net.Conn, string, string) (net.Addr, error)\u0000\u0000B*func(http.http2FrameType, http.http2Flags, uint32, []uint8) error\u0000\u0000C*struct { F uintptr; stopTimerCh chan struct {}; cancelCtx func() }\u0000\u0000D*func(*http.Request, http.http2RoundTripOpt) (*http.Response, error)\u0000\u0000E*struct { F uintptr; m *tls.clientHelloMsg; extensionsPresent *bool }\u0000\u0000E*struct { F uintptr; m *tls.serverHelloMsg; extensionsPresent *bool }\u0000\u0000E*struct { F uintptr; waitForBodyRead chan bool; eofc chan struct {} }\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Q\ufffdj",
+   "column": 927,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (4531:927)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 25077,
+   "class": "insider (25077:109)",
+   "vul_id": "f5b16cf2a15c4f17d230ed69efb04c9f",
+   "method": "\u0003\u000b\u0000\u0000\u003e\u0004\\\u0003\u000b\u0000\u0000 \ufffd`\u0000\u0000\u0000\u0000\u0000\ufffd \u0011\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u0005\u0000\ufffd\u0005\u0011\u0000\u0018!\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\u001a\ufffd\u0000\u0000\u0000\u0000\u0000Є\u0000\u0000\u0000\u0000\u0000vendor/golang.org/x/net/dns/dnsmessage.(*AAAAResource).realType\u0000\ufffd\u0026\u0008\u0000\u0000\u0000\u0000\u0000@\ufffd`\u0000\u0000\u0000\u0000\u0000`!\u0011\u0000\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000} \u0011\u0000\ufffd \u0011\u0000\ufffd!\u0011\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0002f\ufffd\u0006\u0000\ufffd \u0011\u00004\"\ufffd\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000vendor/golang.org/x/net/dns/dnsmessage.(*AAAAResource).GoString\u0000\ufffd'!\u0004e\u0001",
+   "column": 109,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (25077:109)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 32753,
+   "class": "insider (32753:641)",
+   "vul_id": "4fa8e2afca6552d17379397d06db9db8",
+   "method": "\u0001\u0000f\u000bo\u000b\u0001\u0000\ufffd\u000b\ufffd\u000b\u0001\u0000f\u000co\u000c\u0001\u0000\ufffd\u000c\ufffd\u000c\u0001\u0000fo\u0001\u0000\ufffd\ufffd\u0001\u0000P\u000eY\u000e\u0001\u0000\ufffd\u000e\ufffd\u000e\u0001\u0000 \u000f)\u000f\u0001\u0000@\u0010I\u0010\u0001\u0000\ufffd\u0010\ufffd\u0010\u0001\u0000\ufffd\u0017\ufffd\u0017\u0001\u0000\u0010\u0018\u0019\u0018\u0001\u0000F\u0019O\u0019\u0001\u0000\ufffd\u0019\ufffd\u0019\u0001\u0000\ufffd\u001a\ufffd\u001a\u0001\u0000\ufffd\u001a\ufffd\u001a\u0001\u0000P\u001bY\u001b\u0001\u0000\ufffd\u001b\ufffd\u001b\u0001\u0000@\u001cI\u001c\u0001\u0000P\u001cY\u001c\u0001\u0000 \ufffd)\ufffd\u0001\u0000Ш٨\u0001\u0000\u0000\ufffd\t\ufffd\u0001\u0000Щ٩\u0001\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000P\ufffdY\ufffd\u0001\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000\u0010\ufffd\u0019\ufffd\u0001\u0000\u0000\u0000\ufffd\u0002\ufffd\u0002\u0001\u0000\ufffd\u0002\ufffd\u0002\u0001\u0000\ufffd\u0002\ufffd\u0002\u0001\u0000\ufffd\u0002\ufffd\u0002\u0002\u0000t\u0003z\u0003\u0006\u0000Y\u0005@\u0006\ufffd\u0000\ufffd\u0006\ufffd\u0006\u0001\u0000\ufffd\u0007\ufffd\u0007\u0001\u0000\ufffd\u0007\u001a\u0008 \u0000$\u0008(\u0008\u0004\u0000q\tF\u000e\ufffd\u0004\ufffd\u000e\ufffd\u00106\u0002\ufffd\u0017C\u0018l\u0000\ufffd\u001ax\u001c\ufffd\u0001y\u001c}\u001c\u0001\u0000,\u001dj\u001d\u0001\u0000x\u001d\ufffd\u001d#\u0000\ufffd\u001d\ufffd\u001d\u0001\u0000q  \u000e\u0000\ufffd \ufffd \u0001\u0000|,},\u0001\u0000o-/.\ufffd\u0000\u0005010,\u00002050\u0001\u0000;0\ufffd0b\u0000\ufffd0\ufffd0^\u0000\ufffd0\ufffd0\u0001\u0000\u0015\ufffd\ufffd\ufffd\ufffd\u0004\ufffd\ufffd\ufffd\ufffd\u0001\u0000\u000c\ufffd\ufffds\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000\u0017\ufffd\u001f\ufffd\u0001\u0000p\ufffd\ufffd\ufffd\u0018\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000ϩ\ufffd\ufffd\u0017\u0000p\ufffdݪm\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000\\\ufffd_\ufffd\u0001\u0000p\ufffd\ufffd\ufffd.\u0000\ufffd\ufffd\ufffd\ufffd\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f !\"#$$%%\u0026\u0026'''((()**+++++,,,,,,----......///0012222222222333333333344555566666777777777778888888888999999::::::::::::::::;;;;;;;;;;;;;;;;\u003c\u003c\u003c\u003c\u003c===========\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e??????????????????????@@@@@@@@@@@@@@@@@@@@@AAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000c|w{\ufffdko\ufffd0\u0001g+\ufffd׫vʂ\ufffd}\ufffdYG\ufffd\ufffdԢ\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffd\ufffd\u00266?\ufffd\ufffd4\ufffd\ufffd\ufffdq\ufffd1\u0015\u0004\ufffd#\ufffd\u0018\ufffd\u0005\ufffd\u0007\u0012\ufffd\ufffd\ufffd'\ufffdu\t\ufffd,\u001a\u001bnZ\ufffdR;ֳ)\ufffd/\ufffdS\ufffd\u0000\ufffd \ufffd\ufffd[j˾9JLX\ufffd\ufffd\ufffd\ufffd\ufffdCM3\ufffdE\ufffd\u0002P\u003c\ufffd\ufffdQ\ufffd@\ufffd\ufffd\ufffd8\ufffd\ufffd\ufffd\ufffd!\u0010\ufffd\ufffd\ufffd\ufffd\u000c\u0013\ufffd_\ufffdD\u0017ħ~=d]\u0019s`\ufffdO\ufffd\"*\ufffd\ufffdF\ufffd\ufffd\u0014\ufffd^\u000b\ufffd\ufffd2:",
+   "column": 641,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (32753:641)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 5245,
+   "class": "insider (5245:3820)",
+   "vul_id": "c672c560404c52e53d6b15707b6c9cdd",
+   "method": "*.*)*{pad size larger than data payloadpseudo header field after regularreflect.nameFrom: name too long: reflect: Field index out of rangereflect: NumOut of non-func type reflect: array index out of rangereflect: chanDir of non-chan typereflect: slice index out of rangeregexp: unhandled case in compileruntime: castogscanstatus oldval=runtime: epollcreate failed with runtime: failed mSpanList.insert runtime: goroutine stack exceeds runtime: memory allocated by OS [runtime: name offset out of rangeruntime: text offset out of rangeruntime: type offset out of rangeslice bounds out of range [%x:%y]stackalloc not on scheduler stackstoplockedm: inconsistent lockingstruct contains unexported fieldssync: RUnlock of unlocked RWMutextls: failed to write to key log: tls: invalid server finished hashtls: unexpected ServerKeyExchangetoo many Answers to pack (\u003e65535)too many levels of symbolic linksunsupported transfer encoding: %qupdate component usage statisticswaiting for unsupported file typewrite from the user's social flow%s %q is excluded by constraint %q/etc/ssl/certs/ca-certificates.crt0x01,0x02,0x03,0x04,0x05,0x06,0x073552713678800500929355621337890625: day-of-year does not match monthMACH_PORT_VALID|mach_task_self\\(\\)MODE_PRIVATE|Context\\.MODE_PRIVATEOther_Default_Ignorable_Code_PointSIGURG: urgent condition on socketTLS 1.3, client CertificateVerify\u0000TLS 1.3, server CertificateVerify\u0000\\d{2,3}\\.\\d{2,3}\\.\\d{2,3}\\.\\d{2,3}adding nil Certificate to CertPoolandroid.permission.ACCEPT_HANDOVERandroid.permission.ACCOUNT_MANAGERandroid.permission.BLUETOOTH_ADMINandroid.permission.CALL_PRIVILEGEDandroid.permission.CLEAR_APP_CACHEandroid.permission.DELETE_PACKAGESandroid.permission.MANAGE_ACCOUNTSandroid.permission.READ_SYNC_STATSandroid.permission.SET_ORIENTATIONandroid.permission.USE_CREDENTIALSandroid.permission.USE_FINGERPRINTandroid.permission.WRITE_GSERVICESandroid.permission.WRITE_VOICEMAILbad scalar length: %d, expected %dcan't evaluate field %s in type %scan't handle %s for arg of type %schacha20: wrong HChaCha20 key sizeconnection doesn't support Ed25519crypto/aes: invalid buffer overlapcrypto/des: invalid buffer overlapcrypto/rc4: invalid buffer overlapcrypto/rsa: missing public modulusdoaddtimer: P already set in timererase data from other applicationsexpected an RSA public key, got %Texpected attribute name in elementflag provided but not defined: -%sforEachP: sched.safePointWait != 0http2: aborting request body writehttp: MultipartReader called twicehttp: connection has been hijackedhttp: persistConn.readLoop exitinghttp: read on closed response bodyillegal base64 data at input byte in \\u hexadecimal character escapeinvalid nested repetition operatorinvalid or unsupported Perl syntaxinvalid padding bits in BIT STRINGmspan.ensureSwept: m is not lockedout of memory allocating allArenasread browser history and bookmarksread from the user's social streamreflect.FuncOf: too many argumentsreflect: ChanDir of non-chan type reflect: Field index out of boundsreflect: Field of non-struct type reflect: Method index out of rangereflect: recv on send-only channelreflect: send on recv-only channelreflect: string index out of rangeruntime.SetFinalizer: cannot pass runtime: g is running but p is notruntime: netpollBreak write failedruntime: unexpected return pc for schedule: spinning with local workslice bounds out of range [%x:%y:]slice bounds out of range [:%x:%y]stream error: stream ID %d; %v; %vtimeout waiting for client prefacetls: malformed key_share extensiontoo many references: cannot spliceunauthorized windows are displayedunescaped ]]\u003e not in CDATA sectionunsupported authentication method value is nil; should be of type %sx509: Ed25519 verification failurex509: unhandled critical extension%d response missing Location header'_' must separate successive digits-----BEGIN OPENSSH PRIVATE KEY-----177635683940025046467781066894531252006-01-02T15:04:05.999999999Z07:0088817841970012523233890533447265625Acts as the account manager serviceCONTINUATION frame with stream ID 0android.permission.BIND_NFC_SERVICEandroid.permission.BIND_REMOTEVIEWSandroid.permission.BIND_VPN_SERVICEandroid.permission.BROADCAST_STICKYandroid.permission.DISABLE_KEYGUARDandroid.permission.GET_PACKAGE_SIZEandroid.permission.INSTALL_PACKAGESandroid.permission.INSTALL_SHORTCUTandroid.permission.MANAGE_DOCUMENTSandroid.permission.MANAGE_OWN_CALLSandroid.permission.READ_INPUT_STATEandroid.permission.READ_PHONE_STATEandroid.permission.RECEIVE_WAP_PUSHandroid.permission.RESTART_PACKAGESattempt to clear non-empty span setattribute name without = in elementchacha20: output smaller than inputcrypto/md5: invalid hash state sizedirectly initiates CDMA phone setupdynamic table size update too largeed25519: cannot sign hashed messageencoding/hex: odd length hex stringexpected unsigned integer; found %sfile type does not support deadlinefindfunc: bad findfunctab entry idxfindrunnable: netpoll with spinningflate: corrupt input before offset greyobject: obj not pointer-alignedhpack: invalid Huffman-encoded datahttp: server closed idle connectionmheap.freeSpanLocked - invalid freemime: bogus characters after %%: %qmime: invalid RFC 2047 encoded-wordnetwork dropped connection on resetno such multicast network interfacepersistentalloc: align is too largepidleput: P has non-empty run queuerange can only initialize variablesreflect.MakeSlice of non-slice typeruntime: close polldesc w/o unblockruntime: inconsistent read deadlinesends Linux signals to applicationsstrings.Reader.Seek: invalid whencesuperfluous leading zeros in lengthtls: server selected an invalid PSKtls: too many non-advancing recordstoo many Questions to pack (\u003e65535)traceback did not unwind completelytransform: short destination buffertransport endpoint is not connectedunclosed right paren: unexpected %sunsigned integer overflow on token unsupported signature algorithm: %vversionName\\s+(?:=|)(\\d*\\.\\d*\\.\\d*)write browser history and bookmarksx509: decryption password incorrectx509: wrong Ed25519 public key sizexml: comments must not contain \"--\" LastStreamID=%v ErrCode=%v Debug=%q%s is not a method but has arguments) is larger than maximum page size (0123456789abcdefghijklmnopqrstuvwxyz444089209850062616169452667236328125=\\s+new\\s+DESCryptoServiceProvider\\(=\\s+new\\s+MD5CryptoServiceProvider\\(Go pointer stored into non-Go memoryIA5String contains invalid characterMStats vs MemStatsType size mismatchRemote WebView debugging is enabled.Time.UnmarshalBinary: invalid length\\.TLSMinimumSupportedProtocolVersionaccessing a corrupted shared libraryandroid.permission.ACCESS_WIFI_STATEandroid.permission.BIND_DEVICE_ADMINandroid.permission.BIND_INPUT_METHODandroid.permission.BIND_TEXT_SERVICEandroid.permission.CHANGE_WIFI_STATEandroid.permission.EXPAND_STATUS_BARandroid.permission.LOCATION_HARDWAREandroid.permission.MANAGE_APP_TOKENSandroid.permission.READ_FRAME_BUFFERandroid.permission.SET_ALWAYS_FINISHandroid.permission.SET_PROCESS_LIMITandroid.permission.STOP_APP_SWITCHESapproximate location (network based)bytes.Reader.ReadAt: negative offsetbytes.Reader.Seek: negative positionchacha20: wrong HChaCha20 nonce sizecompressed name in SRV resource datacrypto/cipher: input not full blockscrypto/rand: argument to Int is \u003c= 0crypto/sha1: invalid hash state sizecrypto/sha512: invalid hash functionexceeded maximum template depth (%v)expected an ECDSA public key, got %TgetSystemService\\(DOWNLOAD_SERVICE\\)http: no Location header in responsehttp: unexpected EOF reading trailerhttp://www.w3.org/XML/1998/namespaceinternal error: associate not commoninvalid boolean value %q for -%s: %vjson: encoding error for type %q: %qkey size not a multiple of key alignmalformed MIME header initial line: no acceptable authentication methodsopenFileOutput\\(\\s*\".+\"\\s*,\\s*1\\s*\\)openFileOutput\\(\\s*\".+\"\\s*,\\s*2\\s*\\)openFileOutput\\(\\s*\".+\"\\s*,\\s*3\\s*\\)reflect: NumField of non-struct typereset the system to factory defaultsruntime: bad notifyList size - sync=runtime: inconsistent write deadlineruntime: invalid pc-encoded table f=runtime: invalid typeBitsBulkBarrierruntime: marked free object in span runtime: mcall called on m-\u003eg0 stackruntime: sudog with non-nil waitlinkruntime: unblock on closing polldescruntime: wrong goroutine in newstacksignal arrived during cgo execution",
+   "column": 3820,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (5245:3820)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 5246,
+   "class": "insider (5246:471)",
+   "vul_id": "26767abae8bc58162e59a49faabcf00d",
+   "method": "strings.Builder.Grow: negative countsyntax error scanning complex numbertls: keys must have at least one keytls: server did not send a key shareuncaching span but s.allocCount == 0unsupported SSLv2 handshake receivedwrite to the user-defined dictionarywrong number of args: got %d want %dx509: zero or negative DSA parameterxml: %s chain not valid with %s flagxml: end tag \u003c/%s\u003e without start tag%q is an incomplete or empty template) is smaller than minimum page size (-----BEGIN PGP PRIVATE KEY BLOCK-----2220446049250313080847263336181640625=\\s+new\\s+SHA1CryptoServiceProvider\\(AAAA(?:[0-9A-Za-z+/])+={0,3}(?:.+@.+)Allow a phone application or restart.Allows the app to access USB devices.Allows the app to delete cache files.Allows the common application to use.Analysing AndroidManifest file at %s",
+   "column": 471,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (5246:471)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 5237,
+   "class": "insider (5237:700)",
+   "vul_id": "397b5736838188eefe68e68ae50bfc6a",
+   "method": "runtime: p.gcMarkWorkerMode= runtime: split stack overflowruntime: stat underflow: val runtime: sudog with non-nil cruntime: summary max pages = runtime: unknown pc in defer semacquire not on the G stackstring concatenation too longsyntax error scanning booleantls: DialWithDialer timed outtls: invalid NextProtos valuetls: invalid server key sharetls: too many ignored recordstls: use of closed connectiontoo many open files in systemunknown IP protocol specifiedunknown certificate authorityvalidateRequest\\s*=\\s*\"false\"x509: cannot parse URI %q: %sx509: cannot parse dnsName %qzero length OBJECT IDENTIFIER (types from different scopes) in prepareForSweep; sweepgen  locals stack map entries for -----BEGIN EC PRIVATE KEY-----227373675443232059478759765625GODEBUG: unknown cpu feature \"HEADERS frame with stream ID 0MapIter.Key called before NextRead phone status and identitySIGPROF: profiling alarm clockSIGUSR1: user-defined signal 1SIGUSR2: user-defined signal 2SIGVTALRM: virtual alarm clock\\.(?:Deserialize|ReadObject)\\(_html_template_jsregexpescaperabi mismatch detected between android.permission.ASEC_ACCESSandroid.permission.ASEC_CREATEandroid.permission.ASEC_RENAMEandroid.permission.C2D_MESSAGEandroid.permission.RECEIVE_MMSandroid.permission.RECEIVE_SMSandroid.permission.TRANSMIT_IRasn1: cannot marshal nil valueassignment to entry in nil mapautomatically start at startupchange user interface settingscheckdead: inconsistent countscreateHash\\((?:'|\")sha1(?:'|\")crypto/dsa: invalid public keycrypto/rsa: verification erroreliminate background processesends in a non-text context: %vexpected element name after \u003c/failed to get system page sizeforce the application to closefreedefer with d._panic != nilhtml/template: %q is undefinedhttp2: decoded hpack field %+vhttp: named cookie not presentillegal window increment valuein exponent of numeric literalinappropriate ioctl for deviceinvalid function symbol table",
+   "column": 700,
+   "description": "EC key. File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (5237:700)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  },
+  {
+   "cvss": 7.4,
+   "cwe": "CWE-312",
+   "line": 5232,
+   "class": "insider (5232:4217)",
+   "vul_id": "f83b55075d4fa0ca1196a43c2380ca66",
+   "method": "NSTemporaryDirectory\\(\\),XML syntax error on line \\w+.withUnsafeBytes\\s*{.*_cgo_thread_start missing_html_template_cssescaper_html_template_urlescaperallgadd: bad status Gidleandroid.permission.BACKUPandroid.permission.CAMERAandroid.permission.REBOOTandroid\\.database\\.sqlitearena already initializedbad status in shrinkstackbad system huge page sizecan't evaluate command %qcan't print %s of type %schange screen orientationchansend: spurious wakeupcheckdead: no m for timercontent\\.ClipboardManagercontext deadline exceededexpected string; found %sexplicit tag has no childhttp2: Framer %p: read %vhttp2: invalid header: %vhttp2: unsupported schemeillegal character code %Uillegal number syntax: %qinconsistent poll.fdMutexinvalid character entity invalid cross-device linkinvalid network interfaceinvalid object identifierinvalid username/passwordjson: Unexpected key typejson: unsupported value: manage a list of accountsmanage application tokensmissing stack in newstackmissing traceGCSweepStartmodify battery statisticsnet/url: invalid userinfono answer from DNS serverno buffer space availableno hex data for %x stringno such device or addressno such file or directoryno such network interfaceno suitable address foundoperation now in progressport number out of range reflect.Value.OverflowIntreflect.Value.SetMapIndexreflect: Bits of nil Typereleasep: invalid p stateremaining pointer buffersresource deadlock avoidedruntime: epollwait on fd runtime: misaligned func runtime: program exceeds runtime·lock: lock countslice bounds out of rangesocket type not supportedsq0atp-[0-9A-Za-z\\-_]{22}sq0csp-[0-9A-Za-z\\-_]{43}startm: p has runnable gsstoplockedm: not runnablestrict-transport-securitytls: protocol is shutdownturns the phone on or offunexpected '[' in addressunexpected ']' in addressunexpected end element \u003c/unexpected fault address unknown Go type for slicewrite contact informationxml: end tag with no name using unaddressable value using zero Value argument/private/var/tmp/cydia.log1455191522836685180664062572759576141834259033203125: day-of-year out of rangeEAACEdEose0cBA[0-9A-Za-z]+ECDSA verification failureGODEBUG: can not disable \"HTTP Version Not SupportedLocal File I/O Operations.Move application resourcesMust be required by a linkSIGSTOP: stop, unblockable\\bdebug\\s*=\\s*\"\\s*true\\s*\"_html_template_attrescaper_html_template_htmlescaperaccess check-in propertiesaddress type not supportedandroid.intent.action.MAINandroid.permission.USE_SIPandroid.permission.VIBRATEasn1: invalid UTF-8 stringbad certificate hash valuebase 128 integer too largebidirule: failed Bidi Rulecall from unknown functioncannot marshal DNS messagechacha20: counter overflowchacha20: wrong nonce sizechange your audio settingscom\\.noshufou\\.android\\.sucom\\.thirdparty\\.superusercorrupted semaphore ticketcriterion lacks equal signcryptobyte: internal errordnsmessage.NSResource{NS: dnsmessage.Question{Name: duplicate pseudo-header %qencountered a cycle via %sentersyscall inconsistent expected complex; found %sexpected integer; found %sforEachP: P did not run fnfreedefer with d.fn != nilhttp2: Framer %p: wrote %vid (%v) \u003c= evictCount (%v)initSpan: unaligned lengthinteger overflow on token invalid argument to Int31ninvalid argument to Int63ninvalid port %q after hostinvalid request descriptorinvalid value; expected %smalformed HTTP status codemalformed chunked encodingname not unique on networknet/http: request canceledno CSI structure availableno message of desired typeno templates in name spacenon sequence tagged as setnotewakeup - double wakeupout of memory (stackalloc)persistentalloc: size == 0read from empty dataBufferreadLoopPeekFailLocked: %vreflect.Value.CanInterfacereflect.Value.MethodByNamereflect.Value.OverflowUintrequired key not availableruntime: bad span s.state=runtime: pipe failed with segment prefix is reservedshrinking stack in libcallstartlockedm: locked to mestopped after 10 redirectstemplate escaped correctlytoo many colons in addresstoo many slice indexes: %dtruncated base 128 integerunclosed criterion bracketunexpected . after term %qunexpected right paren %#Uunterminated quoted string is not assignable to type !#$%\u0026()*+-./:\u003c=\u003e?@[]^_{|}~ %q in attribute name: %.32q-----BEGIN CERTIFICATE----------BEGIN PRIVATE KEY-----.*\\.ExecuteDataSet\\(.*\".*\\+/Applications/blackra1n.app363797880709171295166015625Analysing Java dependenciesCall phone numbers directlyCurveP256CurveP384CurveP521DATA frame with stream ID 0G waiting list is corruptedNo output logs of executionSIGILL: illegal instructionSIGXCPU: cpu limit exceeded\"2006-01-02T15:04:05Z07:00\"_html_template_jsstrescaper_html_template_jsvalescaperaccess-control-allow-originaddress not a stack addressafter object key:value pairandroid.permission.INTERNETandroid.permission.READ_SMSandroid.permission.SEND_SMSandroid.permission.SET_TIMEandroid.permission.SHUTDOWNcan't index item of type %scan't slice item of type %schange network connectivitychannel number out of rangecipher: incorrect length IVcommunication error on sendcrypto/rsa: invalid moduluscryptobyte: invalid OID: %vcryptobyte: length overflowcurrent time %s is after %sdisplay system-level alertsdnsmessage.SOAResource{NS: expand / collect status barflag needs an argument: -%sgcstopm: not waiting for gcgrowslice: cap out of rangehkdf: entropy limit reachedhttp chunk length too largehttp2: response body closedinsufficient security levelinternal lockOSThread errorinvalid HTTP header name %qinvalid argument to Shuffleinvalid boolean flag %s: %vinvalid dependent stream IDinvalid profile bucket typeinvalid type for comparisonkey was rejected by servicemakechan: size out of rangemakeslice: cap out of rangemakeslice: len out of rangemap has no entry for key %qmspan.sweep: bad span statenet/http: invalid method %qnet/http: use last responsenew\\s+PasswordValidator\\(\\)not a XENIX named type fileonReceivedSslError\\(WebViewprogToPointerMask: overflowrange can't iterate over %vreflect.Value.OverflowFloatrunlock of unlocked rwmutexruntime: asyncPreemptStack=runtime: checkdead: find g runtime: checkdead: nmidle=runtime: corrupted polldescruntime: netpollinit failedruntime: thread ID overflowruntime·unlock: lock countsignal received during forksigsend: inconsistent statestack size not a power of 2startm: negative nmspinningstopTheWorld: holding lockstime: invalid location nametls: short read from Rand: too many declarations in %sunsupported protocol schemework.nwait was \u003e work.nprocxml: opening charset %q: %vxml: start tag with no name args stack map entries for %q is not a defined function/Applications/SBSettings.app/proc/sys/net/core/somaxconn/system/etc/security/cacerts18189894035458564758300781259094947017729282379150390625Create Bluetooth connectionsEd25519 verification failureFixedStack is not power-of-2Not found plist files at %s",
+   "column": 4217,
+   "description": "File contains sensitive information written directly, such as usernames, passwords, keys, etc.",
+   "classMessage": "insider (5232:4217)",
+   "recomendation": "Credentials must not be stored in the git code or repository, an attacker could decompile the application and obtain the credential. There are ‘Secrets Management’ solutions that can be used to store secrets or use Pipeline resources."
+  }
+ ],
+ "none": 0,
+ "low": 18,
+ "medium": 84,
+ "high": 25,
+ "critical": 2,
+ "total": 129,
+ "android": {
+  "packageName": "com.app.damnvulnerablebank",
+  "size": "32991071 Bytes",
+  "averageCvss": 9,
+  "securityScore": 10,
+  "mainActivity": ".SplashScreen",
+  "numberOfLines": 135330
+ },
+ "activities": [
+  {
+   "activity": ".Myprofile"
+  },
+  {
+   "activity": ".CurrencyRates"
+  },
+  {
+   "activity": ".ResetPassword"
+  },
+  {
+   "activity": ".ViewBeneficiary"
+  },
+  {
+   "activity": ".ApproveBeneficiary"
+  },
+  {
+   "activity": ".PendingBeneficiary"
+  },
+  {
+   "activity": ".AddBeneficiary"
+  },
+  {
+   "activity": ".SendMoney"
+  },
+  {
+   "activity": ".ViewBeneficiaryAdmin"
+  },
+  {
+   "activity": ".GetTransactions"
+  },
+  {
+   "activity": ".ViewBalance"
+  },
+  {
+   "activity": ".Dashboard"
+  },
+  {
+   "activity": ".RegisterBank"
+  },
+  {
+   "activity": ".BankLogin"
+  },
+  {
+   "activity": ".MainActivity"
+  },
+  {
+   "activity": ".SplashScreen"
+  }
+ ],
+ "permissions": [
+  {
+   "title": "android.permission.INTERNET",
+   "status": "Desconhecido",
+   "description": "full internet access",
+   "info": "Allows the application to create network sockets."
+  },
+  {
+   "title": "android.permission.USE_BIOMETRIC",
+   "status": "Desconhecido",
+   "info": "Allows the app to use biometric modalities compatible with the device."
+  }
+ ]
+}
