@@ -15,6 +15,24 @@ jobs:
         echo "deb [trusted=yes] https://apt.fury.io/bearer/ /" | sudo tee -a /etc/apt/sources.list.d/fury.list
         sudo apt-get update
         sudo apt-get install bearer
+
+    - name: Run tests1
+      run: |
+        pwd
+
+    - name: Run tests2
+      run: |
+        ls -al
+        
+    - name: Run tests3
+      run: |
+        cd ..
+        pwd
+        
+    - name: Run tests4
+      run: |
+        ls -al
+
     - name: Run tests
       run: |
         bearer scan . --output code-scan-results/result.json
