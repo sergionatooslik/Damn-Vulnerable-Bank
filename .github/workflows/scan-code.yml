@@ -22,7 +22,7 @@ jobs:
 
     - name: Run tests2
       run: |
-        ./insider
+        ./insider --tech android --target .
         
     - name: Run tests3
       run: |
