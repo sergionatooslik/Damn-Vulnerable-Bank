@@ -16,6 +16,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install bearer
 
+    - name: Run tests0
+      run: |
+        uname -m
+
     - name: Run tests1
       run: |
         pwd
@@ -35,4 +39,4 @@ jobs:
 
     - name: Run tests
       run: |
-        bearer scan DamnVulnerableBank --output code-scan-results/result.json
+        bearer scan DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
