@@ -13,27 +13,7 @@ jobs:
       run: |
         curl -sfL https://raw.githubusercontent.com/Bearer/bearer/main/contrib/install.sh | sh
 
-    - name: Run tests0
-      run: |
-        uname -m
-
-    - name: Run tests1
-      run: |
-        pwd
-
-    - name: Run tests2
-      run: |
-        ls -al
-        
-    - name: Run tests3
-      run: |
-        cd bin
-        pwd
-        
-    - name: Run tests4
-      run: |
-        ls -al
-
     - name: Run tests
       run: |
-        bearer scan ../DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
+        cd bin
+        ./bearer scan ../DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
