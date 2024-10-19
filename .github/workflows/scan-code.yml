@@ -17,4 +17,4 @@ jobs:
         sudo apt-get install bearer
     - name: Run tests
       run: |
-        bearer scan . --output /code-scan-results/result.json
+        bearer scan . --output code-scan-results/result.json
