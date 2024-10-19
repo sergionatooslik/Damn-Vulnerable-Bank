@@ -27,7 +27,7 @@ jobs:
         
     - name: Run tests3
       run: |
-        cd ..
+        cd bin
         pwd
         
     - name: Run tests4
@@ -36,4 +36,4 @@ jobs:
 
     - name: Run tests
       run: |
-        bearer scan DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
+        bearer scan ../DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
