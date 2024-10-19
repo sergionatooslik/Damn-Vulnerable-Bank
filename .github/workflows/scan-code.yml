@@ -18,7 +18,19 @@ jobs:
       run: |
         bearer
     
-    - name: Run tests
+    - name: Run tests1
       run: |
         pwd
+
+    - name: Run tests2
+      run: |
+        ls -al
+        
+    - name: Run tests3
+      run: |
+        cd ..
+        pwd
+        
+    - name: Run tests4
+      run: |
         ls -al
