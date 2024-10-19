@@ -14,6 +14,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install bearer
 
+    - name: check bearer
+      run: |
+        bearer
+    
     - name: Run tests
       run: |
         bearer scan .
