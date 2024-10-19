@@ -34,3 +34,12 @@ jobs:
     - name: Run tests4
       run: |
         ls -al
+
+    - name: Run tests5
+      run: |
+        cd ..
+        pwd
+        
+    - name: Run tests6
+      run: |
+        ls -al
