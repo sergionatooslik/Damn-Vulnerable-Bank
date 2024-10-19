@@ -1,0 +1,22 @@
+name: Scan code before building apk
+
+on: [push]
+
+jobs:
+  scan-code:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+    - uses: actions/checkout@v3
+
+    - name: install bearer for code scaning
+      run: |
+        sudo apt-get install apt-transport-https
+        echo "deb [trusted=yes] https://apt.fury.io/bearer/ /" | sudo tee -a /etc/apt/sources.list.d/fury.list
+        sudo apt-get update
+        sudo apt-get install bearer
+
+    - name: Run tests
+      run: |
+        bearer scan .
