@@ -16,4 +16,4 @@ jobs:
     - name: Run tests
       run: |
         cd bin
-        ./bearer scan ../DamnVulnerableBank --output code-scan-results/result.json || { echo "Error: $?"; exit 1; }
+        ./bearer scan ../DamnVulnerableBank --output ../code-scan-results/result.json || { echo "Error: $?"; exit 1; }
